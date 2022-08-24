@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>visitor page</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+
+        #div-1 {
+            width: 95%;
+            height: 550px;
+            margin: auto;
+            margin-top: 120px;
+            margin-bottom: 0px;
+
+            display: flex;
+            /* border: 1px solid red; */
+
+
+
+        }
+
+        #div-1a {
+            width: 62%;
+            height: 500px;
+
+
+
+        }
+
+        #div-1a img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #div-1b {
+            width: 32%;
+            height: 500px;
+
+
+
+        }
+
+        #dib_1b_font {
+            color: rgb(148, 154, 169);
+            font-weight: lighter;
+            line-height: 20px;
+            word-spacing: 5px;
+            margin-top: 10px;
+
+
+        }
+
+
+        #welcome {
+            color: rgb(148, 154, 169);
+            font-weight: lighter;
+            line-height: 30px;
+
+
+        }
+
+        #talk {
+            color: rgb(148, 154, 169);
+            font-weight: lighter;
+            line-height: 30px;
+            margin-top: -30px;
+        }
+
+        #div-1b h1 {
+            font-size: 2.6rem;
+            color: rgb(63, 68, 80);
+            margin-top: 0px;
+            margin-bottom: 0px;
+
+
+        }
+
+        #div-1b h3 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 40px;
+            letter-spacing: 1px;
+
+
+
+
+
+        }
+
+        .btn-getstarted {
+            height: 40px;
+            border-radius: 3px;
+            border: none;
+            display: block;
+            width: 130px;
+            background-color: rgb(251, 67, 56);
+            color: white;
+            font-size: 15px;
+
+            font-weight: bold;
+            margin-bottom: 20px;
+
+        }
+
+        .btn-getstarted:hover {
+            background-color: rgb(180, 39, 31);
+            cursor: pointer;
+        }
+
+        .links {
+            text-decoration: none;
+            color: red;
+        }
+        .link-2{
+            text-decoration: none;
+        }
+
+        #div-1c_logo_section {
+            width: 100%;
+            height: 20px;
+            margin: auto;
+            /* border: 2px solid red; */
+            background-color: rgb(235, 235, 240);
+
+
+        }
+
+        #div-1d_navbar {
+            width: 95%;
+            height: 70px;
+            margin: auto;
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: space-between;
+
+
+        }
+
+        #div-1d_navbar div {
+            width: 32%;
+            height: 70px;
+            /* border: 1px solid red; */
+            margin: auto;
+
+
+        }
+
+        #div-1d-b {
+            display: flex;
+        }
+
+        #div-1d-c-signupfree button {
+            height: 40px;
+            border-radius: 4px;
+            border: none;
+            display: block;
+            width: 130px;
+            background-color: rgb(235, 235, 240);
+            color: rgb(231, 17, 49);
+            font-size: 15px;
+            margin: 15px 230px;
+
+            font-weight: bold;
+        }
+
+        #div-1d-c-signupfree button:hover {
+            background-color: rgb(208, 208, 221);
+            cursor: pointer;
+        }
+
+        #div-1d_navbar h2 {
+            color: rgb(24, 19, 19);
+
+
+        }
+
+        #div-1d_navbar h3 {
+            color: rgb(23, 24, 26);
+            font-size: 16px;
+            margin-top: 23px;
+            text-align: center;
+
+
+        }
+
+        #div-1d_navbar h3:hover {
+            cursor: pointer;
+            color: rgb(231, 17, 49);
+            ;
+
+        }
+
+        #div-1e_logo_section_close {
+            width: 100%;
+            height: 10px;
+            margin: auto;
+            /* border: 2px solid red; */
+            background-color: rgb(235, 235, 240);
+
+        }
+
+        /* second section style        DIV---2    ======================DIV 2  =========  MIX with DIV-3  =======  ====================================== */
+        #div-2, #div-3, #div-4{
+            width: 95%;
+            height: 400px;
+            margin: auto;
+            /* border: 1px solid red; */
+            display: flex;
+            margin-top: 100px;
+        }
+
+        #div-2 div, #div-3 div,  #div-4 div {
+            margin: auto;
+        }
+
+        #div-2a, #div-3b, #div-4a div  {
+            width: 40%;
+            height: 350px;
+            /* border: 1px solid red; */
+        }
+
+        #div-2a img,#div-3b img, #div-4a img  {
+            width: 120%;
+            height: 100%;
+        }
+
+        #div-2b, #div-3a, #div-4b {
+            width: 30%;
+            height: 400px;
+            /* border: 1px solid red;
+           */
+
+        }
+
+        #div-2b div, #div-3a div, #div-4v div {
+            margin: auto;
+        }
+
+        #keep_your_workplace_safe, #Make_hosting_visitors_seamless, #Make_a_polished_first_impression {
+            width: 100%;
+            height: 28%;
+            /* border: 1px solid red; */
+        }
+
+        #keep_your_workplace_safe h1, #Make_hosting_visitors_seamless h1, #Make_a_polished_first_impression h1 {
+            width: 80%;
+            margin-top: 0px;
+            color: rgb(63, 68, 80);
+            font-size: 40px;
+            margin-left: 20px;
+            margin-top: 50px;
+
+        }
+
+
+
+
+        #div-2b-text,  #div-3a-text, #div-4b-text{
+            width: 100%;
+            height: 65%;
+
+        }
+
+        #div-2b-text h3,  #div-3a-text h3,   #div-4b-text h3 {
+            color: rgb(165, 167, 172);
+            letter-spacing: 1px;
+            font-weight: lighter;
+            margin-left: 20px;
+            line-height: 25px;
+        }
+
+        #learn-more, #learn-more-2, #learn-more-3 {
+
+            height: 40px;
+            border-radius: 4px;
+            border: none;
+            display: block;
+            width: 130px;
+            background-color: rgb(235, 235, 240);
+            color: rgb(231, 17, 49);
+            font-size: 15px;
+            margin-left: 20px;
+
+
+
+            font-weight: bold;
+        }
+
+        #learn-more:hover, #learn-more-2:hover, #learn-more-3:hover {
+            background-color: rgb(208, 208, 221);
+            cursor: pointer
+        }
+        /* for 3rd div---- */
+        #Make_hosting_visitors_seamless h1{
+            width: 90%;
+        }
+
+        /* for 4th parent div--------------- */
+        /* #div-4{
+            width: 95%;
+            height: 400px;
+            margin: auto;
+            border: 1px solid red;
+            display: flex;
+            margin-top: 100px;
+        } */
+        #Make_a_polished_first_impression h1{
+            width: 90%;
+        }
+        #div-4a img{
+            width: 90%;
+            height: 90%;
+        }
+         /* \/\/\/\/\/\/\/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/  */
+
+         /* style for div ---5------------------DIV  5   --------------------------------------- */
+         #div-5{
+            width: 98%;
+            height: 500px;
+            border: 1px solid red;
+            background-color: rgb(65,65,162);
+           
+            margin: auto;
+            margin-top: 170px;
+            margin-left: 20px;
+         }
+         #div-5a{
+            width: 60%;
+            height: 60%;
+            border: 1px solid red;
+            margin-top: 50px;
+            margin: auto;
+            margin-bottom: 30px;
+         }
+         #div-5b{
+            width: 60%;
+            height: 30%;
+            border: 1px solid red;
+            margin-top: 20px;
+            margin-left: 255px;
+            
+
+         }
+         #div-5a h1{
+            width: 80%;
+            text-align: center;
+            color: rgb(182,223,234);
+            margin-left: 90px;
+            margin-top: 65px;
+            font-size: 45px;
+         }
+         #div-5a h3{
+            color: rgb(182,223,234);
+            text-align: center;
+            font-size: 16px;
+            margin-bottom: 40px;
+
+         }
+        
+         #div-5a a{
+            color: rgb(172, 176, 177);
+            text-decoration: none;
+            margin-top: 50px;
+            font-size: 16px;
+         }
+         #checkmark{
+            cursor: pointer;
+            background-color: #b6dfea;
+         }
+        
+        
+
+       
+    </style>
+</head>
+
+<body>
+    <!-- top section parent  div---------------------------------------------- -->
+    <div id="div-1">
+        <!-- image div -->
+
+        <div id="div-1a">
+            <img src="https://envoy.com/images/products/visitors/mobile-hero.svg" alt="">
+        </div>
+        <div id="div-1b">
+            <!-- text div--- -->
+            <h3 id="dib_1b_font">ENVOY VISITORS</h3>
+            <h1>Peace of mind for you and everyone who enters your workplace</h1>
+            <h3 id="welcome">Welcome guests with the beautifully simple visitor management system that safeguards your
+                workplace and supercharges your front desk.</h3>
+
+
+
+
+            <button class="btn-getstarted">Get started</button>
+            <h3 id="talk">Talk to our sales team. <a class="links" href="https://envoy.com/contact/?type=sales">Contact
+                    us</a></h3>
+
+        </div>
+    </div>
+    <!-- logo section grey div start -->
+
+    <div id="div-1c_logo_section"></div>
+
+    <!-- mini navbar for envoy visitos------- -->
+
+    <div id="div-1d_navbar">
+        <!-- 1st div-text envoy visitor -->
+        <div id="div-1d-a">
+            <h2>Enjoy Visitor</h2>
+        </div>
+
+        <!-- 2nd div  for (overview , features, pricing) -->
+
+        <div id="div-1d-b">
+            <div id="overview">
+                <h3>Overview</h3>
+            </div>
+
+            <div id="features">
+                <h3> Features</h3>
+
+            </div>
+            <div id="pricing">
+                <h3>Pricing</h3>
+            </div>
+        </div>
+
+        <!-- 3rd div for button -->
+
+
+        <div id="div-1d-c-signupfree">
+            <button>Sign up for free</button>
+        </div>
+
+
+    </div>
+
+    <div id="div-1e_logo_section_close"></div>
+    <!-- \/\/\/\/\/\/\/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+
+
+    <!-- second section parent div----------------------------------2nd section ------------    2nd  ----- -->
+
+    <div id="div-2">
+
+
+        <div id="div-2a">
+            <img src="https://envoy.com/images/products/visitors/vaccine-record-ui.svg" alt="">
+        </div>
+
+        <div id="div-2b">
+            <!-- content of div 2 (h1, h3, button ) -->
+            <div id="keep_your_workplace_safe">
+                <h1>Keep Your Workplace Safe</h1>
+                <!-- <h1>Keep your workplace safe</h1> -->
+            </div>
+
+            <div id="div-2b-text">
+                <h3>See exactly who's visiting, when, and why. Know instantly if a visitor doesn’t meet your criteria
+                    for entry, and promote a healthy workplace with a touchless sign-in and document verification.</h3>
+
+                <a class="link-2"  href="https://envoy.com/secure-visitor-management-software/"><button id="learn-more" >Learn More</button>
+                </a>
+
+            </div>
+
+            
+        </div>
+    </div>
+
+     <!-- \/\/\/\/\/\/\/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+
+
+    <!-- 3rd section --------PARENT -----div 3 -------------------3rd SECTION ----------------->
+
+    <div id="div-3">
+
+        <div id="div-3a">
+            <!-- content of div 3 (h1, h3, button ) -->
+            <div id="Make_hosting_visitors_seamless">
+                <h1>Make hosting visitors seamless</h1>
+                <!-- <h1>Keep your workplace safe</h1> -->
+            </div>
+
+            <div id="div-3a-text">
+                <h3>No more scrambling to find employees when their guests arrive, handwriting name badges, and tracking down signed agreements. 96% of customers say that Envoy saves their team time.</h3>
+
+                <a class="link-2" href="https://envoy.com/secure-visitor-management-software/"><button id="learn-more" >Learn More</button>
+                </a>
+
+
+            </div>
+
+            
+        </div>
+
+        <div id="div-3b">
+            <img src="https://envoy.com/images/products/visitors/visitors-list-ui.svg" alt="">
+        </div>
+    </div>
+
+     <!-- \/\/\/\/\/\/\/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+
+
+     <div id="div-4">
+
+
+        <div id="div-4a">
+            <img src="https://envoy.com/images/products/visitors/invitation-email.svg" alt="">
+        </div>
+
+        <div id="div-4b">
+            <!-- content of div 2 (h1, h3, button ) -->
+            <div id="Make_a_polished_first_impression">
+                <h1>Make a polished first impression</h1>
+                <!-- <h1>Keep your workplace safe</h1> -->
+            </div>
+
+            <div id="div-4b-text">
+                <h3>Show guests that you care about their experience from the moment that they’re invited to visit. Send directions and parking instructions, wow them with a touchless sign-in, and survey them after about their experience–all in your branding.</h3>
+
+                <a class="link-2"  href="https://envoy.com/secure-visitor-management-software/"><button id="learn-more-3" >Learn More</button>
+                </a>
+
+            </div>
+
+            
+        </div>
+    </div>
+
+
+    <!-- \/\/\/\/\/\/\/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+
+    <!-- Section --5     Div no. ---5    -------------------   DIV-   n0   5  ---------  -->
+    <div id="div-5">
+
+        <div id="div-5a">
+            <h1 >Check the boxes to stay in compliance</h1>
+            <h3>Capture and securely store everything you need from visitors to remain in compliance with regulations. Export data at a moment's notice to make audits painless.</h3>
+
+            <a href="https://envoy.com/compliance-management/"><h3 id="checkmark">Checkmark Learn about our compliance solutions</a>
+        </div>
+        <div id="div-5b"></div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
