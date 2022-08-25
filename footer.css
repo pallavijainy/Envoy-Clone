@@ -124,10 +124,6 @@
       display: block;
     }
 
-    #footer_div{
-      
-    }
-
   }
 
   @media (max-width:468px) {
@@ -135,7 +131,5 @@
     #footer_div p{
       width: auto;
     }
-
-    
   }
   
