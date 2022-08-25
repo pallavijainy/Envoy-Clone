@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #3f44500c;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+#container {
+    border: 2px solid red;
+    height: 107vh;
+    
+   
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+  }
+      /* NAV-BAR */
+      #navbar {
+        /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+        display: flex;
+        padding: 18px;
+      }
+      img {
+        width: 102px;
+      }
+
+
+
+      /* MID CONTENT */
+
+      #child{
+        border: 1px solid green;
+        width: 70%;
+        height: 90%;
+        margin: auto;
+        border-radius: 10px;
+        background-color: white;
+        display: flex;
+      }
+      
+      #child1{
+        border: 1px solid black;
+        width: 65%;
+        height: 100%;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    #son{
+        border: 2px solid purple;
+        height: 10%;
+    }
+
+    #child2{
+        border: 1px solid rgb(14, 168, 52);
+        width: 35%;
+        height: 100%;
+        border-radius: 0px 10px 10px 0px;
+        background-image: url("https://signup.envoy.com/assets/images/shapes/top-shapes-1.svg"),url(	"https://signup.envoy.com/assets/images/shapes/bottom-shapes-1.svg");
+        background-position: top left,bottom right;
+        background-size: 235px auto,272px auto;
+        background-repeat:no-repeat;
+        background-color: rgba(235,235,240);
+      }
+
+      .head{
+        font-size: 1.125rem;
+
+        color: #717684;
+        font-weight: 500;
+        margin-bottom: -15px;
+      }
+      input{
+        width: 80%;
+        border-radius: 0.375rem;
+        border-width: 1px;
+        --tw-border-opacity: 1;
+        border-color: rgba(235,235,240,var(--tw-border-opacity));
+        --tw-bg-opacity: 1;
+        background-color: rgba(255,255,255,var(--tw-bg-opacity));
+        --tw-text-opacity: 1;
+        color: rgba(63,68,80,var(--tw-text-opacity));
+        outline-offset: 2px;
+        transition-timing-function: cubic-bezier(.4,0,.2,1);
+        transition-duration: 150ms;
+        transition-duration: .2s;
+        padding: 0.5rem;
+    
+      }
+      #elem1{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+      }
+       #firsName , #lastName{
+        width: 100%;
+
+       }
+       .elem{
+        padding-top: 20px;
+       }
+     
+
+
+
+
+
+
+
+
+
+
+
+      a{
+        text-decoration: inherit;
+      }
+      #button{
+        float: right;
+      }
