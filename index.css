@@ -1,0 +1,281 @@
+
+body{
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#div1{
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width:550px ;
+    height:300px;
+    background-color: white;
+    border: 1px solid red;
+
+}
+#div1btn{
+font-size: 1rem;
+height: auto; 
+margin: 0 0 24px;
+border: 1px solid transparent;
+border-radius: 4px;
+height: auto;
+min-width: 92px;
+padding: 1px 1.5rem 0;
+background-color: #fb4338;
+color: #fff;
+font-size: 1rem;
+/* font-family: sofiapro,helvetica neue,Helvetica,Arial,sans-serif; */
+font-weight: 600;
+line-height: 2.5rem;
+text-align: center;
+}
+#div1>h1{
+color: #3F4450;
+font-size: 2.25rem;
+margin-bottom: 0.5rem;
+line-height: 2.5rem;
+box-sizing: border-box;
+border-width: 0;
+border-style: solid;
+border-color: currentColor;
+
+}
+
+#div1>p{
+font-size: 1rem;
+color: #868D9D;
+margin-bottom: 2rem;
+margin-top: 0.5rem;
+font-weight: 400;
+-webkit-font-smoothing: antialiased;
+box-sizing: border-box;
+border-width: 0;
+border-style: solid;
+border-color: currentColor;
+
+}
+
+#div1>span{
+color: #868D9D;
+font-size: 1rem;
+}
+#div1>a:hover{
+color: #BE3229;
+}
+#div1>a{
+color: red;
+text-decoration: none;
+font-weight:500;
+}
+
+
+/* div 3 css */
+
+#div3{
+background-color: #b5e0ec;
+display: flex;
+
+
+}
+
+
+#div3 button{
+border-radius: 0.25rem;
+font-size: 1rem;
+line-height: 2.5rem;
+padding: 1px 1.5rem 0;
+height: auto;
+min-width: 92px;
+border: 1px solid transparent;
+color: #FFFFFF;
+background-color: #4141a2;
+}
+
+#div31{
+border: 1px solid black;
+width: 500px;
+
+
+}
+
+#div32{
+border: 1px solid black;
+width: 1000px;
+
+}
+#div32>img{
+border: 1px solid red;
+width: 100%;
+height: 100%;
+
+}
+h3{
+color: #4141a2;
+font-size: 1rem;
+margin-bottom: 2rem;
+line-height: normal;
+font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 400;
+}
+h2{
+font-size: 2.25rem;
+color: #4141a2;
+margin-bottom: 0.5rem;
+line-height: 2.5rem;
+font-weight: 600;
+font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#div4{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 20px;
+font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+line-height: 1.5;
+margin-top: 40px;
+}
+#div4 img{
+width: 48px;
+height:48px;
+}
+
+#div5{
+background-image: url("https://envoy.com/images/home/lionsgate-interstitial.jpg");
+width: 100%;
+height: 500px;
+
+}
+#div5 h2{
+color: white;
+font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#div6{
+background-image: url("	https://envoy.com/images/section-backgrounds/squiggles.svg");
+width: 100%;
+height: 500px;
+font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#div6>h3{
+max-width: 530px;
+line-height: 1.5825;
+font-size: 1.125rem;
+color: #868d9d;
+font-weight: 400;
+
+}
+#div6>h2{
+color: #4141a2;
+font-weight: 600;
+}
+
+#div6>button{
+font-size: 1rem;
+height: auto; 
+margin: 0 0 24px;
+border: 1px solid transparent;
+border-radius: 4px;
+height: auto;
+min-width: 92px;
+padding: 1px 1.5rem 0;
+background-color:#3d2b94;
+color: #fff;
+font-size: 1rem;
+/* font-family: sofiapro,helvetica neue,Helvetica,Arial,sans-serif; */
+font-weight: 600;
+line-height: 2.5rem;
+text-align: center;
+}
+
+/* #div71>img:hover{
+box-shadow: 0 3px 24px rgb(0 0 0 / 20%);
+border-radius: 0.25rem;
+
+} */
+#div7_main img{
+/* /* display: grid; */
+
+width: 100%;
+
+}
+#div7_main{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+line-height: 1.5;
+gap: 10px;
+}
+
+#div8{
+background-color: #fa4338;
+width: 100%;
+height: 500px;
+}
+
+#div8 h2{
+line-height: 1.03em;
+color: #feb0c5;
+font-size: 4.5rem;
+text-align: left;
+
+}
+
+#div81 button{
+color: #fff;
+background-color: #3d2b94;
+border-radius: 0.25rem;
+font-size: 1rem;
+line-height: 2.5rem;
+height: 2.75rem;
+padding: 1px 1.5rem 0;
+height: auto;
+border: 1px solid transparent;
+
+}
+
+#div82{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 10px;
+}
+#div82>div{
+background-color: white;
+}
+#logo{
+max-width: 100%;
+height: auto;
+vertical-align: middle;
+box-sizing: border-box;
+text-align: center;
+}
+#last_div{
+background-image: url("https://envoy.com/images/section-backgrounds/freckles.svg	");
+width: 100%;
+height: 500px;
+font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#grid_kiya{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 10px;
+}
+
+
+/* ********************************************************** */
+#div1{
+/* margin-left: 163px;
+margin-top: 200px;
+width: 43%;
+float: left;
+position: relative;
+z-index: 1; */
+/* margin-left: 215px; */
+/* margin-top: 48px; */
+width: 43%;
+float: left;
+max-width: 515px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 32px;
+z-index: 10;
+position: relative;
+}
+
+
+
