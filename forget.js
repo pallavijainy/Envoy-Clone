@@ -1,4 +1,6 @@
+
 //forget
+
 
 let al=()=>{
     alert("email to reset password has been sent")
