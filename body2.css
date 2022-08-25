@@ -1,0 +1,38 @@
+#mainr3{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(181,224,236);
+}
+.headingr3{
+    width: 70%;
+    font-size: 60px;
+    box-sizing: border-box;
+   color: rgb(63,68,80);
+   padding: 0px 0 0 20px;
+    border-width: 0;
+    border-style: solid;
+    border-color: currentColor;
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.subheadingr3{
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    padding: 0 20px;
+    color: rgb(113,118,132);
+}
+.numr3>div>span{
+    color: #21944e;
+    display: block;
+    font-size: 120px;
+    line-height: 1em;
+    font-weight: 600;
+    margin: 50px 100 0 0;
+}
+.numr3>div>h2{
+    color: #5c6270;
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: 400;
+    display: block;
+   
+}
