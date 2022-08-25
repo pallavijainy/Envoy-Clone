@@ -66,7 +66,7 @@ word-spacing: 1px;
     border: 1px solid #818a9e;
     padding: 0px 6px;
     border-width: thin;
-  
+  outline-color: #e91c1c;
     width: 22rem;
     height: 2.5em;
     border-radius: 7px;
@@ -78,6 +78,28 @@ word-spacing: 1px;
     
   }
   #email:focus{
+    background-color: #E8F0FE;
+    border: 1px solid red;
+  
+  }
+
+  /* PASSWORD */
+  #pass {
+    border: 1px solid #818a9e;
+    padding: 0px 6px;
+    border-width: thin;
+  outline-color: #e91c1c;
+    width: 22rem;
+    height: 2.5em;
+    border-radius: 7px;
+  }
+  #pass:hover{
+    cursor: pointer;
+    border-width: 1.5px;
+   
+    
+  }
+  #pass:focus{
     background-color: #E8F0FE;
     border: 1px solid red;
   
@@ -134,3 +156,10 @@ word-spacing: 1px;
    
   }
   
+.passh{
+  display: none
+}
+
+/* .emailh{
+  display: none;
+} */
