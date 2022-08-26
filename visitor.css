@@ -1,0 +1,1133 @@
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+#div-1 {
+    width: 95%;
+    height: 550px;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 0px;
+
+    display: flex;
+    /* border: 1px solid red; */
+
+
+
+}
+
+#div-1a {
+    width: 62%;
+    height: 500px;
+
+
+
+}
+
+#div-1a img {
+    width: 100%;
+    height: 100%;
+}
+
+#div-1b {
+    width: 32%;
+    height: 500px;
+
+
+
+}
+
+#dib_1b_font,
+#div-6a h3 {
+    color: rgb(148, 154, 169);
+    font-weight: lighter;
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 20px;
+
+
+}
+
+#div-1b input {
+    width: 180px;
+    height: 40px;
+    background-color: rgb(246, 246, 249);
+    border-radius: 5px;
+    border-color: rgb(164, 169, 182);
+    margin-bottom: 0px;
+
+}
+
+
+#welcome {
+    width: 100%;
+    color: rgb(148, 154, 169);
+    font-weight: lighter;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 0px;
+
+
+}
+
+#talk-div>h3 {
+
+    border: 1px;
+
+}
+
+#talk {
+    border: 1px solid red;
+    color: rgb(148, 154, 169);
+    font-weight: lighter;
+    margin-left: 0px;
+
+    width: 100%;
+
+
+
+}
+
+
+
+
+#div-1b h1 {
+    font-size: 2.6rem;
+    color: rgb(63, 68, 80);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+
+}
+
+#div-1b>h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 40px;
+    letter-spacing: 1px;
+
+
+
+
+
+}
+
+
+.btn-getstarted {
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    display: block;
+    width: 130px;
+    background-color: rgb(251, 67, 56);
+    color: white;
+    font-size: 15px;
+
+    font-weight: bold;
+    /* margin-bottom: 20px; */
+    margin-left: 200px;
+    margin-top: -43px;
+
+}
+
+.btn-getstarted:hover {
+    background-color: rgb(180, 39, 31);
+    cursor: pointer;
+}
+
+.links {
+    text-decoration: none;
+    color: red;
+}
+
+.link-2 {
+    text-decoration: none;
+}
+
+#div-1c_logo_section {
+    width: 100%;
+    height: 20px;
+    margin: auto;
+    /* border: 2px solid red; */
+    background-color: rgb(235, 235, 240);
+
+
+}
+
+#div-1d_navbar {
+    width: 95%;
+    height: 70px;
+    margin: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+#div-1d_navbar div {
+    width: 32%;
+    height: 70px;
+    /* border: 1px solid red; */
+    margin: auto;
+
+
+}
+
+#div-1d-b {
+    display: flex;
+}
+
+#div-1d-c-signupfree button {
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    display: block;
+    width: 130px;
+    background-color: rgb(235, 235, 240);
+    color: rgb(231, 17, 49);
+    font-size: 15px;
+    margin: 15px 230px;
+
+    font-weight: bold;
+}
+
+#div-1d-c-signupfree button:hover {
+    background-color: rgb(208, 208, 221);
+    cursor: pointer;
+}
+
+#div-1d_navbar h2 {
+    color: rgb(24, 19, 19);
+
+
+}
+
+#div-1d_navbar h3 {
+    color: rgb(23, 24, 26);
+    font-size: 16px;
+    margin-top: 23px;
+    text-align: center;
+
+
+}
+
+#div-1d_navbar h3:hover {
+    cursor: pointer;
+    color: rgb(231, 17, 49);
+    ;
+
+}
+
+#div-1e_logo_section_close {
+    width: 100%;
+    height: 10px;
+    margin: auto;
+    /* border: 2px solid red; */
+    background-color: rgb(235, 235, 240);
+
+}
+
+/* second section style        DIV---2    ======================DIV 2  =========  MIX with DIV-3  =======  ====================================== */
+#div-2,
+#div-3,
+#div-4 {
+    width: 95%;
+    height: 400px;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: 100px;
+}
+
+#div-2 div,
+#div-3 div,
+#div-4 div {
+    margin: auto;
+}
+
+#div-2a,
+#div-3b,
+#div-4a div {
+    width: 40%;
+    height: 350px;
+    /* border: 1px solid red; */
+}
+
+#div-2a img,
+#div-3b img,
+#div-4a img {
+    width: 120%;
+    height: 100%;
+}
+
+#div-2b,
+#div-3a,
+#div-4b {
+    width: 30%;
+    height: 400px;
+    /* border: 1px solid red;
+           */
+
+}
+
+#div-2b div,
+#div-3a div,
+#div-4v div {
+    margin: auto;
+}
+
+#keep_your_workplace_safe,
+#Make_hosting_visitors_seamless,
+#Make_a_polished_first_impression {
+    width: 100%;
+    height: 28%;
+    /* border: 1px solid red; */
+}
+
+#keep_your_workplace_safe h1,
+#Make_hosting_visitors_seamless h1,
+#Make_a_polished_first_impression h1,
+#div-6a h1 {
+    width: 80%;
+    margin-top: 0px;
+    color: rgb(63, 68, 80);
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 50px;
+
+}
+
+
+
+
+#div-2b-text,
+#div-3a-text,
+#div-4b-text {
+    width: 100%;
+    height: 65%;
+
+}
+
+#div-2b-text h3,
+#div-3a-text h3,
+#div-4b-text h3 {
+    color: rgb(165, 167, 172);
+    letter-spacing: 1px;
+    font-weight: lighter;
+    margin-left: 20px;
+    line-height: 25px;
+}
+
+#learn-more,
+#learn-more-2,
+#learn-more-3 {
+
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    display: block;
+    width: 130px;
+    background-color: rgb(235, 235, 240);
+    color: rgb(231, 17, 49);
+    font-size: 15px;
+    margin-left: 20px;
+
+
+
+    font-weight: bold;
+}
+
+#learn-more:hover,
+#learn-more-2:hover,
+#learn-more-3:hover,
+#view_all:hover {
+    background-color: rgb(208, 208, 221);
+    cursor: pointer
+}
+
+/* for 3rd div---- */
+#Make_hosting_visitors_seamless h1 {
+    width: 90%;
+}
+
+/* for 4th parent div--------------- */
+/* #div-4{
+            width: 95%;
+            height: 400px;
+            margin: auto;
+            border: 1px solid red;
+            display: flex;
+            margin-top: 100px;
+        } */
+#Make_a_polished_first_impression h1 {
+    width: 90%;
+}
+
+#div-4a img {
+    width: 90%;
+    height: 90%;
+}
+
+/* \/\/\/\/\/\/\/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/  */
+
+/* style for div ---5------------------DIV  5   --------------------------------------- */
+#div-5 {
+    width: 98%;
+    height: 500px;
+    
+    background-color: rgb(65, 65, 162);
+
+    margin: auto;
+    margin-top: 170px;
+    margin-left: 20px;
+    margin-bottom: 120px;
+}
+
+#div-5a {
+    width: 60%;
+    height: 60%;
+
+    margin-top: 50px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#div-5b {
+    width: 60%;
+    height: 30%;
+
+    margin-top: 20px;
+    margin-left: 255px;
+
+
+}
+
+#div-5a h1 {
+    width: 80%;
+    text-align: center;
+    color: rgb(182, 223, 234);
+    margin-left: 90px;
+    margin-top: 65px;
+    font-size: 45px;
+}
+
+#div-5a h3 {
+    color: rgb(182, 223, 234);
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 25px;
+
+}
+
+#div-5a a {
+    color: rgb(172, 176, 177);
+    text-decoration: none;
+    margin-top: 50px;
+    font-size: 16px;
+    margin-left: 220px;
+}
+
+#checkmark:hover {
+    cursor: pointer;
+    color: #b6dfea;
+
+}
+
+#div-5b {
+    display: flex;
+}
+
+#div-5b div {
+    width: 14%;
+    height: 75px;
+
+    margin-top: 40px;
+    margin: auto;
+
+}
+
+#div-5b img {
+    width: 60%;
+    height: 60%;
+
+}
+
+#div-6 {
+    width: 95%;
+    height: 150px;
+
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#div-6a h1 {
+    margin-top: -10px;
+}
+
+#view_all {
+    margin-top: 50px;
+    margin-right: 30px;
+
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    display: block;
+    width: 150px;
+    background-color: rgb(235, 235, 240);
+    color: rgb(231, 17, 49);
+    font-size: 15px;
+    margin-left: 20px;
+
+
+
+    font-weight: bold;
+
+}
+
+/* style ----------div 7---------------------DIV 7 ------------------------------ */
+.div-7 {
+    width: 97%;
+    height: 400px;
+
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 200px);
+
+}
+
+.div-7 div {
+
+    margin-left: 20px;
+}
+
+.div-7-a h4 {
+    color: rgb(71, 75, 87);
+    font-weight: bold;
+
+}
+
+.div-7-a p {
+    color: rgb(133, 135, 141);
+    line-height: 22px;
+    letter-spacing: 0.5px;
+}
+
+.div-img-a {
+
+    width: 18%;
+    height: 25%;
+
+
+    background-color: rgb(246, 246, 249);
+    border-radius: 100%;
+}
+
+.grid-img-a {
+    width: 50%;
+    height: 100%;
+    margin-left: 15px;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+    .div-7 {
+        width: 97%;
+        height: 400px;
+
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 200px);
+
+    }
+
+}
+
+/* <!-- div  8  ------------------  DIV 8     (RED BOX ) -------------------------> */
+
+#div-8 {
+    height: 600px;
+    width: 100%;
+  
+    margin-top: 0px;
+    background-color: rgb(249, 66, 61);
+    margin-bottom: 80px;
+
+
+
+   
+}
+
+#div-8red {
+    margin-bottom: -10px;
+}
+
+#div-8a h1 {
+    color: white;
+
+    width: 60%;
+    font-size: 3rem;
+    margin-left: 250px;
+
+}
+
+#div-8a h2,
+h3 {
+    color: white;
+
+    width: 60%;
+
+    margin-left: 250px;
+}
+
+hr {
+    list-style: none;
+    width: 85%;
+    margin: auto;
+    margin-top: 90px;
+}
+
+#div-8b {
+    display: flex;
+
+
+}
+
+#div-8b-a {
+    width: 50%;
+    height: 100px;
+   
+    margin-left: 80px;
+    margin-top: 50px;
+    display: flex;
+}
+
+#div-8b-a div {
+    width: 25%;
+    height: 90px;
+    
+    margin: auto;
+
+
+}
+
+#div-8b-a img {
+    width: 80%;
+    height: 80%;
+}
+
+#div-8b-b {
+    width: 10%;
+    height: 50px;
+    
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.red-logo button {
+    display: block;
+    background-color: rgb(249, 66, 61);
+    border: none;
+    width: 130px;
+    height: 50px;
+    border-radius: 4px;
+}
+
+.red-logo button:hover {
+    cursor: pointer;
+    background-color: white;
+    /* color: rgb(65,65,162); */
+
+
+}
+
+#div-8b-b>button {
+    background-color: rgb(65, 65, 162);
+    border: none;
+    width: 190px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#div-8b-b>button:hover {
+    cursor: pointer;
+    background-color: rgb(19, 19, 138);
+    ;
+}
+
+
+
+
+#div-8b-b>button>a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\//      DIV 9   */
+
+/* div  9 style---------------- */
+
+#div-9 {
+   
+    width: 98%;
+    height: 500px;
+    margin-top: 80px;
+
+    margin: auto;
+    display: flex
+}
+
+#div-9 div {
+    width: 50%;
+    height: 100%;
+    
+}
+
+#div-9a img {
+    width: 20%;
+    height: 20%;
+    margin-left: 40px;
+}
+
+#div-9b img {
+    width: 100%;
+    height: 120%;
+}
+
+#div-9a>h1 {
+    font-size: 2.7rem;
+    width: 80%;
+    color: rgb(65, 65, 162);
+    margin-left: 40px;
+}
+
+#div-9a>p {
+    color: rgb(153, 159, 172);
+    margin-left: 40px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    width: 80%;
+    line-height: 26px;
+
+}
+
+#div-9a>button {
+    background-color: rgb(65, 65, 162);
+    border: none;
+    width: 130px;
+    height: 42px;
+    border-radius: 3px;
+    color: white;
+    margin-left: 40px;
+
+}
+
+#div-9a>button:hover {
+    cursor: pointer;
+    background-color: rgb(4, 4, 77);
+
+}
+
+#div-9a>button>a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ______________-______________------____________________-----DIV  10  DIv 10    BLUE BOX   */
+
+#div-10 {
+    width: 98%;
+    height: 500px;
+    margin-top: 220px;
+
+    
+    display: flex;
+    margin-bottom: 100px;
+}
+
+#div-10>div {
+    width: 45%;
+    height: 500px;
+    
+    margin: auto;
+
+}
+
+#div-10b img {
+    margin-top: 100px;
+}
+
+/* ______________-______________------____________________-----DIV  11  DIv 11      */
+#div-11 {
+    width: 98%;
+    height: 900px;
+   
+    margin: auto;
+    background-color: rgb(246, 246, 249);
+}
+
+#div-11>img {
+    margin: 100px 370px;
+}
+
+#div-11a {
+    width: 98%;
+    height: 400px;
+   
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    gap: 20px;
+}
+
+#div-11a div {
+
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;; */
+}
+
+#div-11a div:hover {
+    cursor: pointer;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+
+.slack img {
+    margin-left: 30px;
+    margin-top: 8px;
+
+}
+
+.slack h2 {
+    margin-left: 30px;
+    color: rgb(69, 68, 80);
+
+}
+
+.slack p {
+    margin-left: 30px;
+    width: 70%;
+    color: rgb(69, 68, 80);
+    line-height: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* ______________-______________------____________________-----DIV  12  DIv 12---------------     */
+
+#div-12 {
+    width: 98%;
+    height: 700px;
+   
+    margin: auto;
+    display: flex;
+}
+
+#div-12>div {
+    width: 50%;
+    height: 600px;
+
+   
+}
+
+#div-12a>h4 {
+    letter-spacing: 1.2px;
+    margin-left: 20px;
+    color: rgb(134, 141, 166);
+    font-size: 15px;
+}
+
+#div-12a>h1 {
+    margin-left: 20px;
+    color: rgb(63, 68, 80);
+    font-size: 2.7rem;
+    width: 80%;
+    margin-top: 0px;
+
+}
+
+.show-div {
+    color: rgb(50, 53, 59);
+    margin-left: 40px;
+    font-size: 24px;
+}
+
+.div-12a-1>hr {
+    margin-top: -15px;
+}
+
+.para {
+    color: rgb(126, 128, 134);
+    margin-left: 40px;
+    width: 70%;
+    letter-spacing: 0.3px;
+    display: none;
+    margin-top: 0px;
+}
+
+.div-12a-1 {
+    position: relative;
+}
+
+.div-12a-1>h4:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.div-12a-1:hover .para {
+    display: block;
+}
+
+#div-12b>img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ______________-______________------____________________-----DIV  13  DIv 13---------------     */
+
+#div-13 {
+    width: 98%;
+    height: 600px;
+   
+    margin: auto;
+
+    background-color: rgb(246, 246, 249);
+}
+
+#div-13>div {
+    width: 100%;
+    height: 50%;
+   
+}
+
+#div-13a>h1 {
+    width: 45%;
+    margin-left: 40px;
+    color: rgb(63, 68, 80);
+    font-size: 2.7rem;
+
+}
+
+#div-13a>h4 {
+    width: 50%;
+    margin-left: 40px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: rgb(126, 128, 134);
+    margin-top: -550px;
+
+}
+
+#div-13a>button {
+    width: 140px;
+    height: 50px;
+    margin-left: 1100px;
+    margin-bottom: 500px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+}
+
+#div-13a>button>a {
+    text-decoration: none;
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+}
+
+.div-13b {
+    display: flex;
+
+}
+
+.div-13b>div{
+    width: 25%;
+    height: 100%;
+    
+}
+.div-img{
+    width: 20%;
+    height: 20%;
+  
+
+
+    background-color: rgb(255,255,255);
+    border-radius: 100%;
+    margin-left: 20px;
+
+}
+.div-img>img{
+    height: 75%;
+    width: 75%;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.div-13b-1>h4{
+    margin-left: 20px;
+    color: rgb(63,68,80)
+    
+
+}
+.div-13b-1>p{
+    margin-left: 20px;
+    color: rgb(126, 128, 134);
+    width: 80%;
+    letter-spacing: 0.5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+/* /\//\///\/\/\/\.\\..\.\.\.\.\.\.\.\.\..\.\.\.\.\.\..\  div  14    DIV   14      DIV  14  */
+
+
+#div-14{
+    width: 100%;
+    height: auto;
+   
+    background-color: rgb(65,65,162);
+    margin-top: -20px;
+}
+#div14img-a{
+    margin-left: 120px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+
+}
+/* div 14 hover */
+.show-diva {
+    color:white;
+    margin-left: 40px;
+    font-size: 24px;
+}
+
+.div-12a-1a>hr {
+    margin-top: -15px;
+    width: 50%
+}
+.div-12a-1a>h4{
+    text-align: center;
+   ;
+}
+
+ .paraa {
+   color: rgb(245, 241, 241);
+   text-align: center;
+  padding-bottom: 1.5rem;
+  line-height: 1.6rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    width: 50%;
+    letter-spacing: 1px;
+    display: none;
+  
+    margin-left: 340px;
+} 
+
+.div-12a-1a {
+    position: relative;
+}
+
+.div-12a-1a>h4:hover {
+    cursor: pointer;
+    color: rgb(199, 184, 184);
+}
+
+.div-12a-1a:hover .paraa {
+    display: block;
+}
+/* /\//\///\/\/\/\.\\..\.\.\.\.\.\.\.\.\..\.\.\.\.\.\..\  div  15  DIV   15    DIV  15  */
+
+/* #div-15{
+    width: 98%;
+    height: auto;
+   
+    margin: auto;
+    display: flex;
+}
+#div15-a{
+    width: 70%;
+    height: 100%;
+   
+}
+#div15-a>h1{
+    color: rgb(250,67,56);
+    margin-left: 40px;
+    font-size: 2.7rem;
+}
+#div15-a>h4{
+    color: rgb(39,43,54);
+    margin-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+    font-weight: bold;
+    
+    
+}
+#div15-b{
+    width: 30%;
+    height: 100%;
+   
+    display: flex;
+    
+}
+.btn-getstarted-a {
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    display: block;
+    width: 130px;
+    background-color: rgb(251, 67, 56);
+    color: white;
+    font-size: 15px;
+    margin: auto;
+
+    font-weight: bold;
+   
+}
+#div15-b input {
+    width: 210px;
+    height: 40px;
+    background-color: rgb(246, 246, 249);
+    border-radius: 5px;
+    border-color: rgb(164, 169, 182);
+   /* margin-top: 70px; */
+
+/* }
+#div15-last>hr{
+    margin-left: 50px;
+    width: 80%;
+    color: rgb(180, 174, 174);
+    margin-top: 65px;
+    
+}
+#div15-last>h4{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#div15-last>h4>a{
+    text-decoration: none;
+    color: red;
+}
+#hr2{
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: -8px;
+    width: 90%;
+} */ 
