@@ -7,7 +7,7 @@ body{
     sans-serif;
 }
 #container {
-    border: 2px solid red;
+    border: px solid red;
     height: 107vh;
     
    
@@ -30,7 +30,7 @@ body{
       /* MID CONTENT */
 
       #child{
-        border: 1px solid green;
+        border: px solid green;
         width: 70%;
         height: 90%;
         margin: auto;
@@ -40,19 +40,29 @@ body{
       }
       
       #child1{
-        border: 1px solid black;
+        border: px solid black;
         width: 65%;
         height: 100%;
         border-radius: 10px 0px 0px 10px;
+        /* padding-bottom: -10em; */
+        display: grid;
+        justify-content: center;
+        align-content: center;
+       
+       
     }
 
     #son{
-        border: 2px solid purple;
-        height: 10%;
+        border: px solid purple;
+       line-height: 1.75rem;
+       width: 33rem;
+       
+        
+        
     }
 
     #child2{
-        border: 1px solid rgb(14, 168, 52);
+        border: px solid rgb(168, 14, 155);
         width: 35%;
         height: 100%;
         border-radius: 0px 10px 10px 0px;
@@ -65,41 +75,52 @@ body{
 
       .head{
         font-size: 1.125rem;
+       
 
-        color: #717684;
+        color: #474b53;
         font-weight: 500;
-        margin-bottom: -15px;
+       
       }
       input{
-        width: 80%;
-        border-radius: 0.375rem;
-        border-width: 1px;
-        --tw-border-opacity: 1;
-        border-color: rgba(235,235,240,var(--tw-border-opacity));
-        --tw-bg-opacity: 1;
-        background-color: rgba(255,255,255,var(--tw-bg-opacity));
-        --tw-text-opacity: 1;
-        color: rgba(63,68,80,var(--tw-text-opacity));
-        outline-offset: 2px;
-        transition-timing-function: cubic-bezier(.4,0,.2,1);
-        transition-duration: 150ms;
-        transition-duration: .2s;
-        padding: 0.5rem;
+    
+        border: 1px solid #818a9e;
+        padding: 0px 6px;
+        border-width: thin;
+      outline-color: #e91c1c;
+      width: 95%;
+        height: 2.5em;
+        border-radius: 7px;
     
       }
       #elem1{
-        width: 80%;
+        border: px solid red;
+        width: 95%;
         display: flex;
-        justify-content: space-between;
+        justify-content:space-between;
+      }
+      #elem1>div{
+        border: px solid red;
+        width: 47%;
       }
        #firsName , #lastName{
         width: 100%;
 
        }
-       .elem{
+        
+       #button{
+        border: px solid red;
+        /* height: 2.5em; */
+        border-radius: 5px;
+        padding: 5px 25px 7px 25px;
+        border-width: thin;
+        background-color: #e91c1c;
+        color: aliceblue;
+        font-weight: 600;
+        font-size: 18px;
 
-        padding-top: 22px;
-
+       }
+       #button:hover{
+        cursor: pointer;
        }
      
 
