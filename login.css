@@ -123,6 +123,9 @@ word-spacing: 1px;
    justify-content: center;
    
   }
+  #next:hover{
+    cursor:pointer
+  }
   #next>div{
 
     border: px solid black;
@@ -165,3 +168,7 @@ word-spacing: 1px;
 /* .emailh{
   display: none;
 } */
+
+.nx{
+  display: none;
+}
