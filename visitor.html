@@ -6,377 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>visitor page</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            padding: 0;
-            margin: 0;
-        }
-
-        #div-1 {
-            width: 95%;
-            height: 550px;
-            margin: auto;
-            margin-top: 120px;
-            margin-bottom: 0px;
-
-            display: flex;
-            /* border: 1px solid red; */
-
-
-
-        }
-
-        #div-1a {
-            width: 62%;
-            height: 500px;
-
-
-
-        }
-
-        #div-1a img {
-            width: 100%;
-            height: 100%;
-        }
-
-        #div-1b {
-            width: 32%;
-            height: 500px;
-
-
-
-        }
-
-        #dib_1b_font {
-            color: rgb(148, 154, 169);
-            font-weight: lighter;
-            line-height: 20px;
-            word-spacing: 5px;
-            margin-top: 10px;
-
-
-        }
-
-
-        #welcome {
-            color: rgb(148, 154, 169);
-            font-weight: lighter;
-            line-height: 30px;
-
-
-        }
-
-        #talk {
-            color: rgb(148, 154, 169);
-            font-weight: lighter;
-            line-height: 30px;
-            margin-top: -30px;
-        }
-
-        #div-1b h1 {
-            font-size: 2.6rem;
-            color: rgb(63, 68, 80);
-            margin-top: 0px;
-            margin-bottom: 0px;
-
-
-        }
-
-        #div-1b h3 {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 16px;
-            font-weight: bold;
-            margin-top: 40px;
-            letter-spacing: 1px;
-
-
-
-
-
-        }
-
-        .btn-getstarted {
-            height: 40px;
-            border-radius: 3px;
-            border: none;
-            display: block;
-            width: 130px;
-            background-color: rgb(251, 67, 56);
-            color: white;
-            font-size: 15px;
-
-            font-weight: bold;
-            margin-bottom: 20px;
-
-        }
-
-        .btn-getstarted:hover {
-            background-color: rgb(180, 39, 31);
-            cursor: pointer;
-        }
-
-        .links {
-            text-decoration: none;
-            color: red;
-        }
-        .link-2{
-            text-decoration: none;
-        }
-
-        #div-1c_logo_section {
-            width: 100%;
-            height: 20px;
-            margin: auto;
-            /* border: 2px solid red; */
-            background-color: rgb(235, 235, 240);
-
-
-        }
-
-        #div-1d_navbar {
-            width: 95%;
-            height: 70px;
-            margin: auto;
-            /* border: 2px solid red; */
-            display: flex;
-            justify-content: space-between;
-
-
-        }
-
-        #div-1d_navbar div {
-            width: 32%;
-            height: 70px;
-            /* border: 1px solid red; */
-            margin: auto;
-
-
-        }
-
-        #div-1d-b {
-            display: flex;
-        }
-
-        #div-1d-c-signupfree button {
-            height: 40px;
-            border-radius: 4px;
-            border: none;
-            display: block;
-            width: 130px;
-            background-color: rgb(235, 235, 240);
-            color: rgb(231, 17, 49);
-            font-size: 15px;
-            margin: 15px 230px;
-
-            font-weight: bold;
-        }
-
-        #div-1d-c-signupfree button:hover {
-            background-color: rgb(208, 208, 221);
-            cursor: pointer;
-        }
-
-        #div-1d_navbar h2 {
-            color: rgb(24, 19, 19);
-
-
-        }
-
-        #div-1d_navbar h3 {
-            color: rgb(23, 24, 26);
-            font-size: 16px;
-            margin-top: 23px;
-            text-align: center;
-
-
-        }
-
-        #div-1d_navbar h3:hover {
-            cursor: pointer;
-            color: rgb(231, 17, 49);
-            ;
-
-        }
-
-        #div-1e_logo_section_close {
-            width: 100%;
-            height: 10px;
-            margin: auto;
-            /* border: 2px solid red; */
-            background-color: rgb(235, 235, 240);
-
-        }
-
-        /* second section style        DIV---2    ======================DIV 2  =========  MIX with DIV-3  =======  ====================================== */
-        #div-2, #div-3, #div-4{
-            width: 95%;
-            height: 400px;
-            margin: auto;
-            /* border: 1px solid red; */
-            display: flex;
-            margin-top: 100px;
-        }
-
-        #div-2 div, #div-3 div,  #div-4 div {
-            margin: auto;
-        }
-
-        #div-2a, #div-3b, #div-4a div  {
-            width: 40%;
-            height: 350px;
-            /* border: 1px solid red; */
-        }
-
-        #div-2a img,#div-3b img, #div-4a img  {
-            width: 120%;
-            height: 100%;
-        }
-
-        #div-2b, #div-3a, #div-4b {
-            width: 30%;
-            height: 400px;
-            /* border: 1px solid red;
-           */
-
-        }
-
-        #div-2b div, #div-3a div, #div-4v div {
-            margin: auto;
-        }
-
-        #keep_your_workplace_safe, #Make_hosting_visitors_seamless, #Make_a_polished_first_impression {
-            width: 100%;
-            height: 28%;
-            /* border: 1px solid red; */
-        }
-
-        #keep_your_workplace_safe h1, #Make_hosting_visitors_seamless h1, #Make_a_polished_first_impression h1 {
-            width: 80%;
-            margin-top: 0px;
-            color: rgb(63, 68, 80);
-            font-size: 40px;
-            margin-left: 20px;
-            margin-top: 50px;
-
-        }
-
-
-
-
-        #div-2b-text,  #div-3a-text, #div-4b-text{
-            width: 100%;
-            height: 65%;
-
-        }
-
-        #div-2b-text h3,  #div-3a-text h3,   #div-4b-text h3 {
-            color: rgb(165, 167, 172);
-            letter-spacing: 1px;
-            font-weight: lighter;
-            margin-left: 20px;
-            line-height: 25px;
-        }
-
-        #learn-more, #learn-more-2, #learn-more-3 {
-
-            height: 40px;
-            border-radius: 4px;
-            border: none;
-            display: block;
-            width: 130px;
-            background-color: rgb(235, 235, 240);
-            color: rgb(231, 17, 49);
-            font-size: 15px;
-            margin-left: 20px;
-
-
-
-            font-weight: bold;
-        }
-
-        #learn-more:hover, #learn-more-2:hover, #learn-more-3:hover {
-            background-color: rgb(208, 208, 221);
-            cursor: pointer
-        }
-        /* for 3rd div---- */
-        #Make_hosting_visitors_seamless h1{
-            width: 90%;
-        }
-
-        /* for 4th parent div--------------- */
-        /* #div-4{
-            width: 95%;
-            height: 400px;
-            margin: auto;
-            border: 1px solid red;
-            display: flex;
-            margin-top: 100px;
-        } */
-        #Make_a_polished_first_impression h1{
-            width: 90%;
-        }
-        #div-4a img{
-            width: 90%;
-            height: 90%;
-        }
-         /* \/\/\/\/\/\/\/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/  */
-
-         /* style for div ---5------------------DIV  5   --------------------------------------- */
-         #div-5{
-            width: 98%;
-            height: 500px;
-            border: 1px solid red;
-            background-color: rgb(65,65,162);
-           
-            margin: auto;
-            margin-top: 170px;
-            margin-left: 20px;
-         }
-         #div-5a{
-            width: 60%;
-            height: 60%;
-            border: 1px solid red;
-            margin-top: 50px;
-            margin: auto;
-            margin-bottom: 30px;
-         }
-         #div-5b{
-            width: 60%;
-            height: 30%;
-            border: 1px solid red;
-            margin-top: 20px;
-            margin-left: 255px;
-            
-
-         }
-         #div-5a h1{
-            width: 80%;
-            text-align: center;
-            color: rgb(182,223,234);
-            margin-left: 90px;
-            margin-top: 65px;
-            font-size: 45px;
-         }
-         #div-5a h3{
-            color: rgb(182,223,234);
-            text-align: center;
-            font-size: 16px;
-            margin-bottom: 40px;
-
-         }
-        
-         #div-5a a{
-            color: rgb(172, 176, 177);
-            text-decoration: none;
-            margin-top: 50px;
-            font-size: 16px;
-         }
-         #checkmark{
-            cursor: pointer;
-            background-color: #b6dfea;
-         }
-        
+    <link rel="stylesheet" href="visitor.css">
+    
+     
+       
+       
+       
+      
+
+    
         
 
        
@@ -398,12 +36,17 @@
             <h3 id="welcome">Welcome guests with the beautifully simple visitor management system that safeguards your
                 workplace and supercharges your front desk.</h3>
 
+            <input type="text" placeholder="Enter your email"> 
+
 
 
 
             <button class="btn-getstarted">Get started</button>
-            <h3 id="talk">Talk to our sales team. <a class="links" href="https://envoy.com/contact/?type=sales">Contact
+            <div id="talk-div">
+                <h3 id="talk">Talk to our sales team. <a class="links" href="https://envoy.com/contact/?type=sales">Contact
                     us</a></h3>
+            </div>
+           
 
         </div>
     </div>
@@ -548,12 +191,498 @@
             <h1 >Check the boxes to stay in compliance</h1>
             <h3>Capture and securely store everything you need from visitors to remain in compliance with regulations. Export data at a moment's notice to make audits painless.</h3>
 
-            <a href="https://envoy.com/compliance-management/"><h3 id="checkmark">Checkmark Learn about our compliance solutions</a>
+            <a id="checkmark" href="https://envoy.com/compliance-management/">Checkmark Learn about our compliance solutions</a>
         </div>
-        <div id="div-5b"></div>
+        <div id="div-5b">
+            <div><img src="https://envoy.com/images/products/visitors/logos/ISO.svg" alt=""></div>
+            <div><img src="https://envoy.com/images/products/visitors/logos/FDA.svg" alt=""></div>
+            <div><img src="https://envoy.com/images/products/visitors/logos/ITAR.png" alt=""></div>
+            <div><img src="https://envoy.com/images/products/visitors/logos/GDPR.svg" alt=""></div>
+            <div><img src="https://envoy.com/images/products/visitors/logos/GLBA.png" alt=""></div>
+            <div><img src="https://envoy.com/images/products/visitors/logos/PCI.svg" alt=""></div>
+            <div> <img src="https://envoy.com/images/products/visitors/logos/SOC2.svg" alt=""></div>
+        </div>
 
 
     </div>
+    <!-- /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\\//\/\\/\/\/\/\//\/\ -->
+
+    <!-- div - 06 section ------------  DIV   6                --------------------DIV 6      --------- -->
+
+    <div id="div-6">
+        <div id="div-6a">
+            <h3>KEY FEATURES</h3>
+            <h1>Everything you need to welcome visitors</h1>
+        </div>
+        <div id="div-6b">
+            <a class="link-2"  href="https://envoy.com/visitor-registration/features/"><button id="view_all" >View all features</button>
+            </a>
+        </div>
+    </div>
+
+    <!-- /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\////\/\/\\/\\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ -->
+
+    <!-- DIv--  7 ----- ---      --            DIV-----7       div------7    div  7    -->
+
+<!-- 1st div -->
+    <div class="div-7">
+        <div class="div-7-a">
+            <div class="div-img-a">
+                <img class="grid-img-a" src="https://envoy.com/images/products/visitors/icons/24-custom-red.svg" alt="">
+                
+            </div>
+            <h4>Customizable sign-in</h4>
+                <p>Create multiple sign-in flows that ask different questions based on the purpose of the guest’s visit.</p>
+        </div>
+        <!-- 2nd div  -->
+
+        <div class="div-7-a">
+            <div class="div-img-a">
+                <img class="grid-img-a" src="https://envoy.com/images/products/visitors/icons/24-instant-notification-red.svg" alt="">
+                
+            </div>
+            <h4>Instant notifications</h4>
+                <p>Automatically notify employees when their guests arrive.</p>
+        </div>
+          <!-- 3rd div  -->
+
+
+
+
+        <div class="div-7-a">
+            <div class="div-img-a">
+                <img class="grid-img-a" src="https://envoy.com/images/products/visitors/icons/24-scanner-red.svg" alt="">
+                
+            </div>
+            <h4>Visitor screening</h4>
+                <p>Set criteria visitors must meet to come on-site, including proof of vaccination and watch list screening.</p>
+        </div>
+          <!-- 4th div  -->
+
+
+        <div class="div-7-a">
+            <div class="div-img-a">
+                <img class="grid-img-a" src="https://envoy.com/images/products/visitors/icons/24-data-red.svg" alt="">
+                
+            </div>
+            <h4>Analytics and reporting</h4>
+                <p>Get insight into visitor volume, who hosts visitors and more. Export data in a few clicks</p>
+        </div>
+          <!-- 5th div  -->
+
+
+        <div class="div-7-a">
+            <div class="div-img-a">
+                <img class="grid-img-a" src="https://envoy.com/images/products/visitors/icons/24-prereg-red.svg" alt="">
+                
+            </div>
+            <h4>Registration</h4>
+                <p>Add upcoming visitors to let your team know who to expect and email guests information about their visit.</p>
+        </div>
+          <!-- 6th div  -->
+
+
+        <div class="div-7-a">
+            <div class="div-img-a">
+                <img class="grid-img-a" src="https://envoy.com/images/products/visitors/icons/24-camera-red.svg" alt="">
+                
+            </div>
+            <h4>Photo capture</h4>
+                <p>Ask guests to take a photo so their host can greet them with confidence.</p>
+        </div>
+          <!--7ty div  -->
+
+
+        <div class="div-7-a">
+            <div class="div-img-a">
+                <img class="grid-img-a" src="https://envoy.com/images/products/visitors/icons/24-document-red.svg" alt="">
+                
+            </div>
+            <h4>Digital document signing</h4>
+                <p>Prompts guests to sign agreements, like NDAs and waivers, on the iPad during sign in.</p>
+        </div>
+          <!-- 8th div  -->
+
+
+        <div class="div-7-a">
+            <div class="div-img-a">
+                <img class="grid-img-a" src="https://envoy.com/images/products/visitors/icons/24-badge-red.svg" alt="">
+                
+            </div>
+            <h4>Badge printing</h4>
+                <p>Automatically print badges when visitors sign in. Even create custom badges.</p>
+        </div>
+
+
+        
+        
+    </div>
+    <!-- //\/\/\/\/\//\/\/\/\/\/\/\/\/\//\/\/\/\/\/\\\//\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+
+    <!-- div  8  ------------------  DIV 8     (RED BOX ) -->
+
+    <div id="div-8red">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200"><path fill="rgb(249,66,61)" fill-opacity="1" d="M0,96L120,90.7C240,85,480,75,720,74.7C960,75,1200,85,1320,90.7L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+    </div>
+
+
+    <div id="div-8">
+        <div id="div-8a">
+            <h1>( ( Envoy strikes a good balance between the high level of security we need and the open personality we’ve worked hard to create.</h1>
+            <h2>SHARON TENG</h2>
+            <h3>Operations Admin Manager at Mailchimp</h3>
+            <hr>
+        </div>
+
+
+        <div id="div-8b">
+            <div id="div-8b-a">
+                <div class="red-logo">
+                    <button><img src="https://envoy.com/images/products/visitors/logos/color/mailchimp-logo.svg" alt=""></button>
+                </div>
+
+
+                <div class="red-logo">
+                    <button><img src="https://envoy.com/images/products/visitors/logos/pink/pandora-logo-pink.svg" alt=""></button>
+                </div>
+
+                <div class="red-logo">
+                    <button><img src="https://envoy.com/images/products/visitors/logos/pink/galvanize-logo-pink.svg" alt=""></button>
+                </div>
+
+                <div class="red-logo">
+                
+                   <button><img src="https://envoy.com/images/products/visitors/logos/pink/amag-logo-pink.svg" alt=""></button>
+                </div>
+            </div>
+            <div id="div-8b-b">
+              <button><a href="https://envoy.com/case-studies/">Read Customer Stories</a></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+
+    <!---------- DIv  9     DIV    9       DIV   9   ---------------- -->
+
+    <div id="div-9">
+        <div id="div-9a">
+           
+                <img src="https://envoy.com/images/g2-badges/g2-badge-spring22.svg" alt="">
+
+                <h1>The leader in visitor management</h1>
+
+
+                <p>Easy to setup. Easy to use. Easy to love. See why customers voted Envoy the leading visitor management system on G2.</p>
+
+                <button><a href="https://envoy.com/case-studies/">Read more</a></button>
+                
+                
+             </div>
+        <div id="div-9b">
+            <img src="https://envoy.com/images/products/visitors/g2-grid.svg?v=2" alt="">
+        </div>
+    </div>
+    <!-- \/\/\//\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ -->
+
+
+    <!-- div  10  blue box curve    --------------- -->
+    <div id="div-10">
+        <div id="div-10a">
+            <img src="https://i.postimg.cc/c4bjS3Pm/blue-boxxxxxxxxxxx.png" alt="">
+           
+            
+        </div>
+        <div id="div-10b">
+            <img src="https://i.postimg.cc/y6JpTxD3/box-222222222.png" alt="">
+        </div>
+    </div>
+    <!-- /\/\//\/\\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/\/ DIV  11 -->
+
+    <!-------------------- div 11------------------ -->
+
+    <div id="div-11">
+        <img src="https://i.postimg.cc/d0JWFZxj/Capture-3333333333.png" alt="">
+        <!-- 1st -->
+
+        <div id="div-11a">
+            <div class="slack">
+                <img src="https://envoy.com/images/integrations/slack.svg" alt="">
+                <h2>Slack</h2>
+                <p>Instantly notify employe of every Envoy update directly on slack</p>
+            </div>
+             <!-- 2nd -->
+
+            <div class="slack">
+                <img src="https://envoy.com/images/integrations/openpath-o.svg" alt="">
+                <h2>Openpath</h2>
+                <p>Automatic distribute credentials and logo visitor activity</p>
+            </div>
+
+             <!-- 3rd -->
+
+            <div class="slack">
+                <img src="https://envoy.com/images/apps/icons/Meraki.svg" alt="">
+                <h2>Sico Meraki</h2>
+                <p>Securely shar unique Wi-Fi credentials with each Envoy visitor</p>
+            </div>
+
+             <!-- 4th -->
+
+            <div class="slack">
+                <img src="https://envoy.com/images/apps/icons/Zapier.svg" alt="">
+                <h2>Zapier for visitor</h2>
+                <p>Instantly notify employe of every Envoy update directly on slack</p>
+            </div>
+
+             <!-- 5th -->
+
+            <div class="slack">
+                <img src="https://envoy.com/images/integrations/microsoft-teams.svg" alt="">
+                <h2>Microsoft Team</h2>
+                <p>Automatically notify employee through a private message for every Visitor</p>
+            </div>
+
+             <!-- 6 -->
+
+            <div class="slack">
+                <img src="https://envoy.com/images/apps/icons/webhooks.svg" alt="">
+                <h2>webhooks</h2>
+                <p>Recieve event notifications, when action occur in Envoy</p>
+            </div>
+
+             <!-- 7th -->
+
+
+            <div class="slack">
+                <img src="https://envoy.com/images/integrations/s2.svg" alt="">
+                <h2>S2</h2>
+                <p>Add every visitor to your activity log, create a record and notify  security.</p>
+            </div>
+
+             <!-- 8th -->
+
+            <div class="slack">
+                <img src="https://envoy.com/images/apps/icons/Zoom.svg" alt="">
+                <h2>Slack</h2>
+                <p>Automatically send employee a private notifications for update  </p>
+            </div>
+
+           
+
+        </div>
+
+       
+        
+    </div>
+    
+<!-- /\/\/\/\/\/\/\/\/\/\/\/\/\/\/  DIV  12          -----------------------DIv   12    -->
+
+<div id="div-12">
+    <div id="div-12a">
+        <h4>USE CASES</h4>
+        <h1>Do more than just sign in visitors</h1>
+
+
+        <div class="div-12a-1">
+            <h4 class="show-div">Manage workplace capacity</h4>
+           
+           
+            <p class="para">Know how many people to expect each day and how many people are on-site at any one time so you can prevent overcrowding.</p>
+            <hr>
+        </div>
+
+
+        <div class="div-12a-1">
+            <h4 class="show-div">Enhance the candidate experience</h4>
+           
+           
+            <p class="para">Put job candidates at ease by sending detailed instructions in advance. Instant notifications let your recruiters know when candidates arrive, so they can greet them in a timely manner.</p>
+            <hr>
+        </div>
+
+
+        <div class="div-12a-1">
+            <h4 class="show-div">Track time in and time out</h4>
+           
+           
+            <p class="para">Know exactly what time contractors or employees start and end their shift to reduce payroll errors and save your accounting team time.</p>
+            <hr>
+        </div>
+
+
+        <div class="div-12a-1">
+            <h4 class="show-div">Verify health status</h4>
+           
+           
+            <p class="para">Keep your workplace safe by tracking proof of vaccination and Covid test results for visitors and employees.</p>
+            <hr>
+        </div>
+
+
+
+    </div>
+    <div id="div-12b">
+        <img src="https://envoy.com/images/products/visitors/uc-visitors-screen.svg?v=2" alt="">
+    </div>
+</div>
+<!-- /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ div 13      DIV  13    DIV  13     -->
+
+<!-- div--13  -->
+
+<div id="div-13">
+    <div id="div-13a">
+        <h1>Create a workplace people love</h1>
+        <button><a href="https://envoy.com/products/">Explore Product</a></button>
+        <h4>When you put care into your workplace, it shows. Design a place where everyone can feel welcome, safe, and productive with Envoy’s workplace platform—Protect, Visitors, Deliveries, Rooms, and Desks.</h4>
+
+      
+    </div>
+    <div class="div-13b">
+        <div class="div-13b-1">
+            <div class="div-img">
+                <img src="https://envoy.com/images/products/visitors/icons/24-shield-red.svg" alt="">
+            </div>
+            <h4>Create a safe, healthy workplace</h4>
+            <p>Welcome employees back to the office with confidence, prevent the spread of germs, and avoid overcrowding.</p>
+        </div>
+
+
+
+        <div class="div-13b-1">
+            <div class="div-13b-1">
+                <div class="div-img">
+                    <img src="https://envoy.com/images/products/visitors/icons/24-pulse-red.svg" alt="">
+                </div>
+                <h4>Keep a pulse on the office</h4>
+                <p>See who's in the office, how spaces are used, and what needs your attention all in one place, so you can keep things running smoothly.</p>
+            </div>
+        </div>
+
+
+        <div class="div-13b-1">
+            <div class="div-13b-1">
+                <div class="div-13b-1">
+                    <div class="div-img">
+                        <img src="https://envoy.com/images/products/visitors/icons/24-brain-red.svg" alt="">
+                    </div>
+                    <h4>Work smarter with data</h4>
+                    <p>Analytics on your visitors, meeting rooms, and mailroom can help you make more informed decisions about staffing and space usage.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="div-13b-1">
+
+            <div class="div-13b-1">
+                <div class="div-13b-1">
+                    <div class="div-13b-1">
+                        <div class="div-img">
+                            <img src="https://envoy.com/images/products/visitors/icons/24-sparkles-red.svg" alt="">
+                        </div>
+                        <h4>Keep employees focused</h4>
+                        <p>Save your team from the daily distractions of searching for deliveries, waiting on visitors, and finding an open room to meet, so they can focus on the work that matters most.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /\//\\//\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\//\/\//\/\/\/\/\  DIv 14   DIv 14     -->
+
+<!--  div    14 blue box -2  -->
+
+
+<div id="b2-curve">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -90 1300 220"><path fill="rgb(65,65,162)" fill-opacity="1" d="M0,96L120,85.3C240,75,480,53,720,48C960,43,1200,53,1320,58.7L1440,64L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+</div>
+
+<div id="div-14">
+    <img src="https://i.postimg.cc/m2rH8Myc/002.png" alt="">
+    <img id="div14img-a" src="https://i.postimg.cc/y8025qvb/b2-las.png" alt="">
+
+
+    <div class="div-12a-1a">
+        <hr>
+        <h4 class="show-diva">What do companies use visitor management software for?</h4>
+       
+       
+        <p class="paraa">Companies use visitor management software to provide an exceptional first impression while keeping all the people, property, and data within their workplace secure. Visitor management software allows workplace teams to collect required information from visitors and verify their identities before welcoming them on-site.</p>
+        
+    </div>
+
+    <div class="div-12a-1a">
+        <hr>
+        <h4 class="show-diva">Is a sign in app the same as a visitor management system?</h4>
+        <p class="paraa"> While the terms “sign in app” and “visitor management system” are often used interchangeably, there are slight distinctions between the two. A visitor management system is a comprehensive solution, encompassing every aspect of welcoming visitors into the workplace – from inviting visitors, screening them, granting them building access, checking them in, notifying hosts, logging all visit details, and more. In contrast, a sign in app is just one component of a complete visitor management system.</p>
+        
+       
+       
+       
+       
+        
+    </div>
+
+    <div class="div-12a-1a">
+        <hr>
+        <h4 class="show-diva">Do visitor management systems provide physical security control?</h4>
+       
+       
+        <p class="paraa">Some visitor management system platforms let you set criteria that visitors must meet to get beyond the front desk. Envoy integrates with third party watch lists and emergency alert systems to flag suspicious visitors immediately and block them from entry. Many companies also use Envoy’s access control integrations for an extra layer of security. Envoy integrates with 20 access control systems like Brivo, OpenPath, Kisi, Honeywell, and more.</p>
+       
+    </div>
+
+    <div class="div-12a-1a">
+        <hr>
+        <h4 class="show-diva">How customizable is visitor management software?</h4>
+       
+       
+        <p class="paraa">A visitor management software like Envoy offers many customization options. You can add your company branding to all visitor communication to provide a cohesive experience. You can also create specific sign in flows for different visitors types, such as contractors, clients, candidates, or vendors. Configure every detail of the registration process down to entry criteria, flow logic, admin roles, approval requirements, notification settings, and more. Many companies also leverage Envoy’s robust integration directory to weave the visitor management process seamlessly into their teams’ existing workflows.</p>
+        <hr>
+    </div>
+
+    
+
+   
+</div>
+
+
+
+<div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgb(65,65,162)" fill-opacity="1" d="M0,192L80,197.3C160,203,320,213,480,202.7C640,192,800,160,960,154.7C1120,149,1280,171,1360,181.3L1440,192L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+</div>
+
+<!-- \/\/\//\//\/\/\/\/\/\/\/\/\/\/\/\//\/\\/\/\/\//\/\/\ DIV 15  DIV 15  FOOTER--> 
+
+<!-- div  15    -->
+
+<!-- <div id="div-15">
+    <div id="div15-a">
+        <h1>Try Envoy for free</h1>
+        <h4>Transforming your workplace is easier than you think. Get started in minutes.</h4>
+    </div>
+    <div id="div15-b">
+        <input type="text" placeholder="Enter your email"> 
+         <button class="btn-getstarted-a">Get started</button>
+    </div>
+
+    
+</div>
+<div id="div15-last">
+    <hr>
+   
+   
+    <h4>Phone icon Reach out to our sales team today at  <a href="">(877) 652-2808</a>  or schedule a meeting with one of our experts <a href="https://envoy.com/book-a-meeting/">here</a>
+    <hr id="hr2">
+</div> -->
+
+
+
+<!-- FOOTER     FOOTER       FOOTER____________----------------------------------- -->
+
+   
 
 
 
