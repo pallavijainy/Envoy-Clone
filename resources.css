@@ -1,0 +1,155 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+#div1{
+    width: 98%;
+    height: 700px;
+    border: 1px solid red;
+   
+   margin: auto ;
+   margin-top: 150px;
+   position: relative;
+   
+}
+
+#div1>img{
+    width: 100%;
+    height: 100%;
+}
+#div1>h1{
+    font-size: 2.9rem;
+   font-style: italic;
+    font-weight: bold;
+    color: rgb(63,68,80);
+    width: 50%;
+    text-align: center;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 20%;
+    margin-left: 340px;
+}
+#div1>button{
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    display: block;
+    width: 150px;
+    background-color: rgb(251, 67, 56);
+    color: white;
+    font-size: 15px;
+
+    font-weight: bold;
+    /* margin-bottom: 20px; */
+    margin-left: 200px;
+    margin-top: -43px;
+    position: absolute;
+    top: 45%;
+    margin-left: 580px;
+    margin-top: -13px;
+}
+#div1>button>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/* /\/\/\/\/\/\//\ */
+#div1h1{
+    font-size: 2.8rem;
+    color: rgb(63,68,80);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    margin-left: 50px;
+}
+/* /\/\/\/\/\/\/\/\/----------====================  DIV  2    DIV  2 */
+
+#div2{
+    width: 98%;
+    height: 900px;
+   
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,430px);
+    gap: 50px 20px;
+    /* gap: 200px, -40px; */
+
+
+    
+    
+}
+#div2>div{
+   
+    width: 100%;
+    /* height: 1050px; */
+  
+}
+.div2img>img{
+    width: 88%;
+    height: 88%;
+    margin-left: 40px;
+    display: block;
+    
+    
+}
+
+.div2img>img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.1s;
+}
+.div2a>h2:hover{
+    cursor: pointer;
+    color: red;
+}
+
+
+.div2a>h2{
+    color: rgb(63,68,80);
+    width: 85%;
+    margin-left: 40px;
+    margin-top: 10px;
+
+}
+.div2a>h4{
+    color: rgb(122,127,132);
+    margin-left: 40px;
+}
+.logo{
+    width: 25%;
+    height: 25%;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+/* /\/\/\/\/\/\/\/\/\//\/\/\/\/\/\/\/\/\/\/\/  DIv  3A ------------------*/  
+
+#div3{
+    width: 100%;
+    height: 500px;
+    border: 1px ;
+}
+#div3>img{
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+    display: block;
+    position: relative;
+}
+#div3>p{
+    position: absolute;
+    bottom: -270%;
+   margin-left: 540px;
+  margin-bottom: -15px;
+  color: rgb(108, 108, 156);
+    
+  font-size: 16px;
+  font-family: SofiaPro,helvetica neue,Helvetica,Arial,sans-serif
+
+}
+#div3>p:hover{
+    cursor: pointer;
+    color: rgb(28, 28, 182);
+}
+
