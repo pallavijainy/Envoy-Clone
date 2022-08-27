@@ -27,6 +27,7 @@
         
         body{
                     font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                    
                 }
                 
                 #div1btn{
@@ -308,6 +309,9 @@
         width: 100%;
         
         }
+        #div7_main img:hover{
+            box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+        }
         #div7_main{
         display: grid;
         grid-template-columns: repeat(3,1fr);
@@ -323,12 +327,25 @@
         color: #3f4450;
         width: 60%;
         }
-        
+        #div7{
+            padding: 100px;
+        }
+        #div7_main>div>h3:hover{
+            box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+            color: red;
+        }
+        #div7_main p{
+            color: grey;
+        }
+        #div7_main>div:hover{
+            box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+        }
         
         #div8{
         background-color: #fa4338;
         width: 100%;
-        height: 700px;
+        height: 800px;
+        padding: 30px;
         
         }
         #div88{
@@ -343,9 +360,17 @@
         text-align: left;
         
         }
+        #div8 h3{
+            line-height: 1.03em;
+            color: #feb0c5;
+            font-size:1.5rem;
+            text-align: left;
+            
+            }
         #pal{
             display: grid;
-            gap: 2px;
+            gap: 20px;
+            padding: 80px;
         }
         
         
@@ -365,13 +390,20 @@
         #div82{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        gap: 10px;
+        gap: 20px;
         }
         #div82>div{
         background-color: white;
+        
+        }
+        #div81{
+            padding: 100px;
         }
         
-        
+        hr{
+            width: 80%;
+            margin: auto;
+        }
         
         
         #logo{
@@ -380,18 +412,85 @@
         vertical-align: middle;
         box-sizing: border-box;
         text-align: center;
-        background-color: #fa4338;
+        padding-top: 30px;
+        
         }
         #last_div{
         background-image: url("https://envoy.com/images/section-backgrounds/freckles.svg	");
         width: 100%;
         height: 500px;
         font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-align: center;
+        margin: auto;
         }
+        #last_div>h2{
+            line-height: 1.1667em;
+            max-width: 650px;
+            font-size: 3rem;
+            color: #3f4450;
+            margin: auto;
+            
+            margin-top: 8rem;
+            font-weight: 600;
+        }
+        #last_div>button{
+            font-family: inherit;
+            font-size: 1rem;
+            cursor: pointer;
+            line-height: 2.5rem;
+            height: 2.75rem;
+            padding: 1px 1.5rem 0;
+            height: auto;
+            min-width: 92px;
+            border: 1px solid transparent;
+            vertical-align: middle;
+            text-align: center;
+            transition: all .2s ease-in-out;
+            
+            border-radius: .25rem;
+           
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            color: red;
+            font-weight: 600;
+            margin-bottom: 5rem;
+        }
+        #last_div>#btn{
+               background-color: #fa4338;
+               color: #fff;
+               margin-right: 20px;
+        }
+        #last_div>p{
+            max-width: 600px;
+            font-size: 1rem;
+            color: #3f4450;
+            margin: auto;
+            line-height: 1.5rem;
+            margin-bottom: 3rem;
+        }
+        
         #grid_kiya{
         display: grid;
         grid-template-columns: repeat(4,1fr);
-        gap: 10px;
+        gap: 30px;
+        width: 80%;
+        margin: auto;
+        
+        }
+        #grid_kiya>div:hover{
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        
+        #grid_kiya>div{
+            box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+            padding: 1.5rem;
+            border-color: #fff;
+            border-radius: 0.25rem;
+            background-color: #fff;
+            
+        }
+        #grid_kiya img{
+            width: 15%;
+            
         }
         .aka{
             box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -400,7 +499,7 @@
             padding: 20px;
         }
         #apal{
-            margin-top: 90px;
+            margin-top: 200px;
         }
         /* ***************************************************************************************************** */
         
@@ -460,7 +559,11 @@
         #div4 h3{
             padding-top: 95px;
         }
-        
+        #last_div>button{
+            margin-right: 1rem;
+            margin-bottom: 0;
+            display: inline-block;
+        }
         
         }
         
@@ -520,8 +623,7 @@
         padding: 10px;
            }
            
-        
-        
+           
         
         /* ************************************************ */
         
@@ -539,6 +641,7 @@
             display: grid;
             grid-template-columns: repeat(1,1fr);
             gap: 40px;
+            width: 500px;
            
         }
         #div4 div{
@@ -566,6 +669,27 @@
         
         }
         
+        #div5{
+            width: 500px;
+        }
+        #div6{
+            width: 500px;
+        }
+        #div7{
+            width: 500px;
+            display: none;
+        }
+        #div8{
+            width: 500px;
+            display: none;
+        }
+        #last_div{
+            width: 500px;
+            display: none;
+        }
+        #div8>div{
+            width: 245px;
+        }
         }
         
         
