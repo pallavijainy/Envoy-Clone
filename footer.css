@@ -3,7 +3,8 @@
 }
 
 #maindiv{
-    height: 400px;
+    height: auto;
+    margin-bottom: 0px;
 }
 
 #footerbar {
@@ -49,7 +50,7 @@
 #mainfooter {
   margin-top: 50px;
   width: 100%;
-  height: 300px;
+  height: auto;
 }
 
 #mainfooter {
@@ -84,6 +85,7 @@
   margin-top: 100px;
   margin-left: 20px;
   align-items: center;
+  margin-bottom: 0px;
 }
 
 #social_media div a {

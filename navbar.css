@@ -4,9 +4,7 @@
 }
 
 /* demo purpose */
-body {
-  height: 1000vh;
-}
+/*  */
 
 #navbar {
   margin: 0;
@@ -53,6 +51,11 @@ body {
   font-weight: 700;
 }
 
+#getstarted #gets{
+  text-decoration: none;
+  color: #ffffff;
+
+}
 #logoimg {
   width: auto;
   height: 70px;
@@ -72,6 +75,7 @@ body {
   height: 600px;
   margin-top: -15px;
   opacity: 1;
+  z-index: 100;
   background-color: #ffffff;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
@@ -124,6 +128,7 @@ body {
   width: 400px;
   height: 460px;
   opacity: 1;
+  z-index: 100;
   background-color: #ffffff;
   margin-top: 0px;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
@@ -160,6 +165,7 @@ body {
   left: -50px;
   width: 350px;
   opacity: 1;
+  z-index: 100;
   background-color: #ffffff;
   height: 580px;
   margin-top: 0px;
@@ -176,6 +182,7 @@ body {
   left: -80px;
   width: 300px;
   opacity: 1;
+  z-index: 100;
   background-color: #ffffff;
   height: 280px;
   margin-top: 0px;
@@ -203,38 +210,58 @@ label #cancel {
   display: none;
 }
 
-@media all and (min-width:100px) and (max-width:755px) {
+.toggle-button {
+  position: absolute;
+  margin-top: 20px;
+  top: 0.75rem;
+  right: 1em;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #fa4338;
+  border-radius: 10px;
+}
+
+@media all and (min-width: 100px) and (max-width: 755px) {
   #navbar ul {
     position: fixed;
     top: 80px;
-    left: 0%;
-    height: 100vh;
+    left: -100%;
+    height: opx;
     width: 100%;
     display: block;
     text-align: center;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
   }
   #click {
     display: none;
   }
 
-  #navbar ul li {
+  #navbar ul li a{
     display: block;
+    width: 100%;
   }
 
-  #navbar ul #click {
-    left: 100%;
-  }
-  /* #navbar ul li a {
-    display: block;
-  } */
 
   label #btn {
     display: block;
     margin-right: 25px;
   }
 
-  #click:checked ~ #navbar ul{
-    left: 0%;
-    background-color: #3f4450;
+  #navbar > #click:not(:checked) ~ #navbar ul{
+    height: 0px;
   }
-};
+  #navbar > #click:checked ~ #navbar ul {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+} ;
+

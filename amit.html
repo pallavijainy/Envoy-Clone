@@ -1,6 +1,21 @@
-function navbar() {
-  return `
-  <nav id="navbar">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./navbar.css" />
+    <link rel="stylesheet" href="./amit.html">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
       <div id="logodiv">
         <a href="index.html"><img id="logoimg" src="./media_things/envoy_logo.png" alt="" /></a> 
       </div>
@@ -361,7 +376,7 @@ function navbar() {
           </div>
         </li>
         <li><a id="Login" href="./login.html">Login</a></li>
-        <button id="getstarted"><a id="gets" href="./signup.html">Get Started</a></button>
+        <button id="getstarted"><a id="gets" href="./signup.html">Amitraj</a></button>
       </ul>
 
       <input type="checkbox" id="click" />
@@ -369,7 +384,24 @@ function navbar() {
         <i class="fa fa-bars" id="btn"></i>
         <i class="fa fa-times" id="cancel"></i>
       </label>
-    </nav>`;
-};
+    </nav>
+    <div id="mainnew"></div>
+    <div id="footerid"></div>
+  </body>
+</html>
 
-export default navbar;
+<script type="module">
+    import home from './component/amit.js'
+   
+    let navbox=document.getElementById('mainnew');
+    navbox.innerHTML=home();
+  
+  </script>
+
+<script type="module">
+    import footer from './component/footer.js'
+    let navbox=document.getElementById('footerid');
+    navbox.innerHTML=footer();
+  
+  </script>
+  

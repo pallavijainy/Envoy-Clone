@@ -1,0 +1,132 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #3f44500c;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#container {
+  border: px solid red;
+  height: 107vh;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/* NAV-BAR */
+#navbar {
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+  display: flex;
+  padding: 18px;
+}
+img {
+  width: 102px;
+}
+
+/* MID CONTENT */
+
+#child {
+  border: px solid green;
+  width: 70%;
+  height: 90%;
+  margin: auto;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+}
+
+#child1 {
+  border: px solid black;
+  width: 65%;
+  height: 100%;
+  border-radius: 10px 0px 0px 10px;
+  /* padding-bottom: -10em; */
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+#son {
+  border: px solid purple;
+  line-height: 1.75rem;
+  width: 33rem;
+}
+
+#child2 {
+  border: px solid rgb(168, 14, 155);
+  width: 35%;
+  height: 100%;
+  border-radius: 0px 10px 10px 0px;
+  background-image: url("https://signup.envoy.com/assets/images/shapes/top-shapes-1.svg"),
+    url("https://signup.envoy.com/assets/images/shapes/bottom-shapes-1.svg");
+  background-position: top left, bottom right;
+  background-size: 235px auto, 272px auto;
+  background-repeat: no-repeat;
+  background-color: rgba(235, 235, 240);
+}
+
+.head {
+  font-size: 1.125rem;
+
+  color: #474b53;
+  font-weight: 500;
+}
+input {
+  border: 1px solid #818a9e;
+  padding: 0px 6px;
+  border-width: thin;
+  outline-color: #e91c1c;
+  width: 95%;
+  height: 2.5em;
+  border-radius: 7px;
+}
+#elem1 {
+  border: px solid red;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+#elem1 > div {
+  border: px solid red;
+  width: 47%;
+}
+#firsName,
+#lastName {
+  width: 100%;
+}
+
+#button {
+  border: px solid red;
+  /* height: 2.5em; */
+  border-radius: 5px;
+  padding: 5px 25px 7px 25px;
+  border-width: thin;
+  background-color: #e91c1c;
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 18px;
+}
+#button:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: inherit;
+}
+#button {
+  float: right;
+}
+
+#child2 {
+  display: grid;
+  align-items: center;
+}
+#envoy {
+  border: px solid red;
+  width: 62%;
+  margin: auto;
+  
+  line-height: 2.5rem;
+}
+ #span{
+  color: #e91c1c;
+ }

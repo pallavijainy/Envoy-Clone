@@ -1,0 +1,702 @@
+
+  
+  body{
+    height: auto;
+  }
+      #div1 {
+
+z-index: 1;
+left: 250px;
+top: 40px;
+width: 25%;
+height:auto;
+position: absolute;
+/* background-color: white; */
+/* border: 2px solid black; */
+padding: 10px;
+
+
+    }
+
+   #divs{
+    position: relative
+    }
+    
+#div2>img{
+   width: 100%;
+
+}
+
+
+body{
+            font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        
+        #div1btn{
+    font-size: 1rem;
+    height: auto; 
+    margin: 0 0 24px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    height: auto;
+    min-width: 92px;
+    padding: 1px 1.5rem 0;
+    background-color: #fb4338;
+    color: #fff;
+    font-size: 1rem;
+    /* font-family: sofiapro,helvetica neue,Helvetica,Arial,sans-serif; */
+    font-weight: 600;
+    line-height: 2.5rem;
+    text-align: center;
+    }
+    #div1>h1{
+        color: #3F4450;
+        font-size: 2.25rem;
+        margin-bottom: 0.5rem;
+        line-height: 2.5rem;
+        box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: currentColor;
+    
+    }
+
+    #div1>p{
+        font-size: 1rem;
+        color: #868D9D;
+        margin-bottom: 2rem;
+        margin-top: 0.5rem;
+        font-weight: 400;
+        -webkit-font-smoothing: antialiased;
+        box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: currentColor;
+    
+    }
+
+    #div1>span{
+        color: #868D9D;
+        font-size: 1rem;
+    }
+    #div1>a:hover{
+        color: #BE3229;
+    }
+    #div1>a{
+        color: red;
+        text-decoration: none;
+        font-weight:500;
+    }
+
+
+/* ********************************************************** */
+
+/* div3 */
+
+
+#div3{
+background-color: #b5e0ec;
+display: flex;
+
+width:100%;
+height: 450px;
+/* border: 2px solid green; */
+overflow: hidden;
+/* position:fixed; */
+
+}
+#div1or{
+    /* border: 1px solid red; */
+    width: 47%;
+ 
+  
+}
+#div32mid{
+    display: none;
+    -webkit-transform: scale(1.3);
+ transform: scale(1.3);
+}
+#div31{
+
+width:70%;
+margin-top: 100px;
+margin-left: 80px;
+/* border:1px solid black */
+}
+
+
+#div2or{
+    /* border: 5px solid pink; */
+width:47%;
+display: flex;
+
+}
+#div32{
+    width: auto;
+    /* border:1px solid blue; */
+    height: 100%;
+}
+#div32 img{
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(2);
+ transform: scale(2);
+}
+
+#div3 button{
+border-radius: 0.25rem;
+font-size: 1rem;
+line-height: 2.5rem;
+padding: 1px 1.5rem 0;
+height: auto;
+min-width: 92px;
+border: 1px solid transparent;
+color: #FFFFFF;
+background-color: #4141a2;
+}
+
+
+
+
+
+#div3 h3{
+color: #4141a2;
+font-size: 1rem;
+margin-bottom: 2rem;
+line-height: normal;
+font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 400;
+}
+#div3 h2{
+font-size: 2.25rem;
+color: #4141a2;
+margin-bottom: 0.5rem;
+line-height: 2.5rem;
+font-weight: 600;
+font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+
+#div4{
+    width: 60%;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 20px;
+font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+line-height: 48px;
+margin-top: 70px;
+margin-left:20%;
+margin-bottom: 70px;
+
+}
+.sath{
+    display: flex;
+    gap: 20px;
+    }
+
+   #div4 a:hover {
+        color: #BE3229;
+    }
+    #div4 a{
+        font-weight: 700;
+        text-decoration: none;
+        background-color: transparent;
+        color: #BE3229;
+    }
+    #div4 h2{
+        color: #3F4450;
+        font-weight: 600;
+      font-size: 35px;
+    }
+#div4 img{
+width: 48px;
+height:48px;
+/* border: 1px solid black; */
+padding-top: 25px;
+
+}
+#div4 h3{
+    font-size:30px; 
+    color: #3F4450;
+}
+#div4 p{
+    color: #3F4450;
+    font-size: 1rem;
+    line-height: 1.5625rem;
+}
+#h{
+    display: none;
+}
+
+
+#div5{
+background-image: url("https://envoy.com/images/home/lionsgate-interstitial.jpg");
+width: auto;
+height: 600px;
+
+}
+#div5 button{
+   background-color:transparent;
+   border: none;
+   width:100%;
+   margin:auto;
+   
+
+}
+#div5 h2{
+    color: #FFFFFF;
+font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 40px;
+width: 800px;
+text-align: center;
+margin: auto;
+    padding-top: 100px;
+}
+
+
+
+
+
+
+
+#div6{
+background-image: url("	https://envoy.com/images/section-backgrounds/squiggles.svg");
+width: 100%;
+height: 500px;
+font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#div6>h2{
+color: #4141a2;
+font-weight: 600;
+}
+
+#div6>button{
+font-size: 1rem;
+height: auto; 
+margin: 0 0 24px;
+border: 1px solid transparent;
+border-radius: 4px;
+height: auto;
+min-width: 92px;
+padding: 1px 1.5rem 0;
+background-color:#3d2b94;
+color: #fff;
+font-size: 1rem;
+/* font-family: sofiapro,helvetica neue,Helvetica,Arial,sans-serif; */
+font-weight: 600;
+line-height: 2.5rem;
+text-align: center;
+
+}
+#div6{
+width: 550px;
+margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+#div6 h2{
+    font-size: 40px;
+  
+}
+#div6 p{
+    color: grey;
+    font-size: 20px;
+}
+#div7_main img{
+/* /* display: grid; */
+
+width: 100%;
+
+}
+#div7_main img:hover{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+#div7_main{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+line-height: 1.5;
+gap: 10px;
+}
+#div7>span{
+    color:grey;
+    font-weight: bold;
+}
+#div7 h2{
+font-size: 70px;
+color: #3f4450;
+width: 60%;
+}
+#div7{
+    padding: 100px;
+}
+#div7_main>div>h3:hover{
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    color: red;
+}
+#div7_main p{
+    color: grey;
+}
+#div7_main>div:hover{
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+}
+
+#div8{
+background-color: #fa4338;
+width: 100%;
+height: 800px;
+
+}
+#div88{
+    display: flex;
+    gap: 10px;
+}
+
+#div8 h2{
+line-height: 1.03em;
+color: #feb0c5;
+font-size: 4.5rem;
+text-align: left;
+
+}
+#div8 h3{
+    line-height: 1.03em;
+    color: #feb0c5;
+    font-size:1.5rem;
+    text-align: left;
+    
+    }
+#pal{
+    display: grid;
+    gap: 20px;
+    padding: 80px;
+}
+
+
+#div81 button{
+color: #fff;
+background-color: #3d2b94;
+border-radius: 0.25rem;
+font-size: 1rem;
+line-height: 2.5rem;
+height: 2.75rem;
+padding: 1px 1.5rem 0;
+height: auto;
+border: 1px solid transparent;
+
+}
+
+#div82{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 20px;
+}
+#div82>div{
+background-color: white;
+
+}
+#div81{
+    padding: 100px;
+}
+
+hr{
+    width: 80%;
+    margin: auto;
+}
+
+
+#logo{
+max-width: 100%;
+height: auto;
+vertical-align: middle;
+box-sizing: border-box;
+text-align: center;
+padding-top: 30px;
+
+}
+#last_div{
+background-image: url("https://envoy.com/images/section-backgrounds/freckles.svg	");
+width: 100%;
+height: 500px;
+font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+text-align: center;
+margin: auto;
+}
+#last_div>h2{
+    line-height: 1.1667em;
+    max-width: 650px;
+    font-size: 3rem;
+    color: #3f4450;
+    margin: auto;
+    
+    margin-top: 8rem;
+    font-weight: 600;
+}
+#last_div>button{
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+    line-height: 2.5rem;
+    height: 2.75rem;
+    padding: 1px 1.5rem 0;
+    height: auto;
+    min-width: 92px;
+    border: 1px solid transparent;
+    vertical-align: middle;
+    text-align: center;
+    transition: all .2s ease-in-out;
+    
+    border-radius: .25rem;
+   
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: red;
+    font-weight: 600;
+    margin-bottom: 5rem;
+}
+#last_div>#btn{
+       background-color: #fa4338;
+       color: #fff;
+       margin-right: 20px;
+}
+#last_div>p{
+    max-width: 600px;
+    font-size: 1rem;
+    color: #3f4450;
+    margin: auto;
+    line-height: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+#grid_kiya{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 30px;
+width: 80%;
+margin: auto;
+
+}
+#grid_kiya>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#grid_kiya>div{
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    padding: 1.5rem;
+    border-color: #fff;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    
+}
+#grid_kiya img{
+    width: 15%;
+    
+}
+.aka{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 200px;
+    background-color: white;
+    padding: 20px;
+}
+#apal{
+    margin-top: 200px;
+}
+
+#footerdiv{
+    height: 400px;
+    width: 100%;
+}
+
+/* ***************************************************************************************************** */
+
+@media all and (min-width:755px) and (max-width:1050px){
+   #div1{
+    /* background-color: black; */
+    z-index: 0;
+    top: 0;
+    position: 0;
+    width: 100%;
+   left: 0;
+   /* height: 300px; */
+   text-align: center;
+   }
+   
+   img{
+       margin-top: 300px;
+   }
+   #div32{
+       display: none;
+   }
+  
+   #div32mid{
+       display: block;
+   }
+   #div32mid img{
+       margin: 0;
+   }
+/* *********************************div4**************************** */
+
+#div4 h2{
+    display:none;
+}
+
+#h{
+    display: block;
+    font-size: 3rem;
+    padding: 20px;
+}
+
+#div4{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+
+   
+
+}
+#div4 div{
+font-size: 25px;
+}
+
+#div4 img{
+    margin-top:100px;
+
+}
+#div4 h3{
+    padding-top: 95px;
+}
+#last_div>button{
+    margin-right: 1rem;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+}
+
+
+
+@media all and (min-width:100px) and (max-width:755px){
+    #div1{
+        z-index: 0;
+    top: 0;
+    /* position:sticky; */
+    width:500px;
+   left: 0;
+   height:100px;
+  
+    }
+    img{
+       margin-top: 300px;
+   }
+   #div2{
+     width: 500px;
+ 
+   }
+   #divs{
+       position: 0;
+   }
+   #div32{
+       display: none;
+   }
+  
+   #div32mid{
+       display: block;
+      height: auto;
+      margin-left: 50px;
+      margin-bottom: 500px;
+   }
+   #div32mid img{
+       margin: 0;
+       /* border: 1px solid red; */
+   }
+   #div3{
+       width:500px;
+       height:700px;
+       display: grid;
+   }
+   #div1or{
+       width:100%;
+
+   }
+   #div2or{
+       width:100%;
+height:auto;
+
+   }
+   #div31{
+       width: 100%;
+margin: 0;
+padding: 10px;
+   }
+   
+   
+
+/* ************************************************ */
+
+#div4 h2{
+    display:none;
+}
+
+#h{
+    display: block;
+    font-size: 3rem;
+    padding: 20px;
+}
+
+#div4{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 40px;
+    width: 500px;
+   
+}
+#div4 div{
+font-size: 25px;
+/* border: 1px solid red; */
+
+}
+
+#div4 img{
+    margin-top:100px;
+
+}
+#div4 h3{
+    padding-top: 95px;
+}
+#div5 button{
+  
+   width:100%;
+  
+  
+}
+#div5 h2{
+   
+width:auto;
+
+}
+
+#div5{
+    width: 500px;
+}
+#div6{
+    width: 500px;
+}
+#div7{
+    width: 500px;
+    display: none;
+}
+#div8{
+    width: 500px;
+    display: none;
+}
+#last_div{
+    width: 500px;
+    display: none;
+}
+#div8>div{
+    width: 245px;
+}
+}
+
+

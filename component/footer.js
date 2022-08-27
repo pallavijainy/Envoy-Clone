@@ -97,8 +97,7 @@ function footer() {
           <a href=""><i class="fa fa-twitter" style="font-size: 20px"></i></a>
           <a href=""><i class="fa fa-linkedin" style="font-size: 20px"></i></a>
         </div>
-      </div>
-    </div>`;
+      </div>`;
   };
   
   export default footer;

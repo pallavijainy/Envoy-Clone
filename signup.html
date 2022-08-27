@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>signup</title>
+    <link rel="stylesheet" href="./signup.css" />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <div id="navbar">
+      <div id="first_nav">
+        <a href="./index.html"><img src="https://envoy-fonts.s3.amazonaws.com/logo.svg" alt="" /></a> 
+      </div>
+    </div>
+
+    <!-- signup part -->
+    <div id="container">
+      <div id="child">
+        <div id="child1">
+          <div id="son">
+            <div>
+              <label class="head">Create your Envoy account</label>
+            </div>
+            <br />
+
+            <div class="elem">
+              <div>
+                <label for="user_email">Email</label>
+              </div>
+              <div>
+                <input
+                  autofocus="autofocus"
+                  type="email"
+                  name="user[email]"
+                  id="user_email"
+                />
+              </div>
+            </div>
+            <br />
+            <div class="elem">
+              <div id="elem1">
+                <div>
+                  <div>
+                    <label for="firstName">First Name</label>
+                  </div>
+                  <div>
+                    <input
+                      autofocus="autofocus"
+                      type="text"
+                      name="user[email]"
+                      id="firstName"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <label for="lastName">Last Name</label>
+                  </div>
+                  <div>
+                    <input
+                      autofocus="autofocus"
+                      type="text"
+                      name="user[email]"
+                      id="lastName"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="elem">
+              <div>
+                <label for="mobile">Mobile Number</label>
+              </div>
+              <div>
+                <input
+                  autofocus="autofocus"
+                  type="tel"
+                  name="user[email]"
+                  id="mobile"
+                />
+              </div>
+            </div>
+            <br />
+            <div class="elem">
+              <div>
+                <label for="password">Password</label>
+                
+              </div>
+              <div>
+                <input
+                  autofocus="autofocus"
+                  type="password"
+                  name="user[email]"
+                  id="password"
+                />
+                <br>
+               <span id="message"></span>
+              </div>
+            </div>
+            <p >
+              Password must be at least 8 characters and contain at least one
+              capital letter, one lower case letter, and one number.
+            </p>
+            <p>
+              By clicking "Next" you agree to our
+              <span><a href="apple.html">Terms of Service</a></span> ,
+              <span><a href="apple.html">Privacy Policy</a></span
+              >, and to receive marketing communications from Envoy.
+            </p>
+
+            <div id="button">Sign up</div>
+          </div>
+        </div>
+        <div id="child2" class="elem">
+          <div id="envoy" >
+            <h1>Envoy saves administrators an average of <span id="span">100 hours</span> per year</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./signup.js"></script>

@@ -1,0 +1,471 @@
+
+/* ***** */
+
+#headA{  
+    width: 98%;
+    margin: auto;  
+    display: flex;
+    justify-content: space-around;
+    margin-top:200px;
+}
+.heading{
+   
+    color: #3f4450;
+    margin-bottom: 0.75rem;
+    margin: auto;
+    width: 80%;
+    font-size:60px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#headA>div>img{
+    width: 450px;
+    margin-top: 20px;
+}
+.subheading{
+    
+    margin:4px auto;
+    width: 80%;
+    color: #717684;
+    font-size:25px;
+    line-height: 1.5;
+    font-weight: 500;
+    max-width: 455px;
+    text-align: center;
+ }
+ .btn_red,.arrow{
+   
+    margin:30px  auto;
+    border-radius: 5px;
+    width: 40%;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 400;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    line-height: 2.5rem;
+    color: #FFFFFF;
+    background-color: #FA4338;
+ }
+ .lifea{
+    width: 98%;
+    margin: auto;
+    background-color:rgb(246,246,249);
+    display:flex ;
+    gap: 60px;
+ }
+ 
+ .lifeb{
+    width: 50%;
+    margin:150px 0 0 30px;
+ }
+ .lifeb>div{
+    color: #3F4450;
+    font-size: large;
+    margin-left: 60px;
+   
+ }
+ .u{
+    border-bottom: 1px solid;
+    color:rgb(113,118,132);
+ }
+ 
+ .lifeb>p{
+    margin-left:60px;
+    width: 100%;
+    font-weight: 500;
+    line-gap-override: 100px;
+    color: #7e8086;
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+   
+ }
+ .u>p{
+    margin-bottom: 30px;
+    width: auto;
+   
+ }
+
+ .smile{
+   
+    display: flex;
+    gap: 10px;
+ }
+
+ .pic{
+    margin: 165px 100px 100px 8px;
+ }
+ .pic>img{
+    width:85%;
+ }
+ .lifeb>h1{
+    font-size: 3rem;
+    line-height: 2.5rem;
+    color: #3F4450;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+
+/* ***** */
+#mainr3{
+    width: 98%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(181,224,236);
+}
+.headingr3{
+    width: 70%;
+    font-size: 60px;
+    box-sizing: border-box;
+   color: rgb(63,68,80);
+   padding: 0px 0 0 20px;
+    border-width: 0;
+    border-style: solid;
+    border-color: currentColor;
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.subheadingr3{
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    padding: 0 20px;
+    color: rgb(113,118,132);
+}
+.numr3>div>span{
+    color: #21944e;
+    display: block;
+    font-size: 120px;
+    line-height: 1em;
+    font-weight: 600;
+    margin: 50px 100 0 0;
+}
+.numr3>div>h2{
+    color: #5c6270;
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: 400;
+    display: block;
+   
+}
+.numr3>div:nth-child(2) span{
+    padding-right: 50px;
+}
+/* ********************* */
+.headingr4{
+    width: 98%;
+    font-size: 3rem;
+    line-height: 1.085;
+    font-weight: 600;
+    color: #3f4450;
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    width: 30%;
+   margin:80px 1px 5px 525px; 
+
+}
+.subheadingr4{
+    font-size: 1.125rem;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #717684;
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    width: 30%;
+    margin:10px auto ;
+}
+.gr4{
+
+    width: 98%;
+    margin: auto;
+   
+    margin-top: 70px ;
+    display: flex;
+  
+}
+
+
+.gr41{
+    width: 88%; 
+    height: 170px;
+    padding: 10px; 
+    background-color: rgb(33,148,78);
+    color: #ffffff;
+    margin: 100px  10px;
+    border-radius: 10px;
+   
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.gr41>img{
+    margin: -78px 1px 1px 636px;
+}
+
+.gr42{
+   
+    width: 43%;
+    height: 180px;
+    margin-top: 175px;
+    padding: 10px 1px;
+    background-color: rgb(33,148,78);
+    color: #ffffff;
+    border-radius: 10px;
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.gr42>img{
+    margin: -80px 1px 1px  520px;
+}
+.imgr40{
+    width: 98%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.imgr4{
+    margin-left: 5px;
+    width: 36%;
+    height: 30%;
+}
+.imgr41{
+    width: 55%;
+}
+.rrr{
+    width: 98%;
+    margin: auto;
+ 
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  background-color: rgb(181,224,236);
+  margin-top: -30px;
+}
+.rrr>img{
+    margin: 120px 70px;
+    width: 46%;
+}
+.rrr>div>h2{
+    width: 50%;
+    font-size: 3rem;
+    line-height: 1.085;
+    font-weight: 600;
+    margin-top: 250px;
+    color: #3F4450;
+    font-family : SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.rrr>div>h3{
+    width: 85%;
+    font-size: 1.125rem;
+    line-height: 32px;
+    color: #717684;
+}
+ul{
+    columns: 2;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #717684;
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+ul>li{
+    padding: 5px;
+}
+.news{
+    width: 95%;
+    margin: 80px 1px 1px 30px;
+   
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    color: #8a8f9e;
+    padding: -100px 1px 20px 30px;
+    text-transform: uppercase;
+    font-size: .875rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.mile{
+    width: 96%;
+    margin: auto;
+ 
+    padding:20px 1px 40px 2px;
+    font-size: 60px;
+    color: rgb(63,68,80);
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.cnbc{
+    width: 95%;
+    margin: auto;
+   
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 30px;
+}
+.cnbc>div>img{
+    margin-bottom:30px;
+}
+.cnbc>div>div>a{
+   text-decoration: none;
+   color: #3f4450;
+    margin-bottom: 0.75rem;
+    display: block;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-weight: 600;
+    transition: color 0.2s ease-in;
+}
+.cnbc>div>div>:hover{
+ color: #EF3934; ;
+}
+.perkr{
+    width: 98%;
+    margin: auto;
+ 
+    margin-top:100px ;
+   
+    background-color:rgb(246,246,249) ;
+}
+.perkr>h1{
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color: #3F4450;
+    font-size: 3rem;
+    padding: 80px 0 20px 30px;
+}
+.rechr{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+}
+.rechr{
+   margin: 10px 0 0 30px;
+}
+.rechr>div{
+    margin-top: 30px;
+}
+.rechr>div>h4{
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    color:rgb(63,68,80);
+}
+.rechr>div>img{
+    width: 30px;
+    background-color: #ffffff;
+    padding: 13px;
+    border-radius: 50px;
+}
+.perkr>img{
+   margin: 60px 80px 0 80px;
+  width: 90%;
+}
+.open{
+    width: 60%;
+    margin: 60px auto;
+  
+}
+
+.open>h1 {
+    margin-bottom: 1.5rem;
+    color: #3f4450;
+    font-size: 3rem;
+    line-height: 1.085;
+    font-weight: 600;
+    text-align: center;
+}
+.teamr{
+    width: 98%;
+    margin: auto;
+   
+    display: flex;
+   justify-content:space-around;
+}
+.teamr>div>select{
+    width: 150%;
+    padding: 14px 20px;
+    border-radius: 0.25rem;
+    color: #3f4450;
+    font-size: 17px;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.teamr>div>select:hover{
+    color: #EF3934;
+}
+#op{
+    width: 70%;
+    margin-left: 70px;
+}
+.pr{
+margin-left: 70px;
+}
+.teamr>div>p{
+    color: #717684;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 0.5rem;
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}
+.designr{
+    width: 98%;
+    margin: auto;
+   
+    display: flex;
+    justify-content:space-between;
+    gap: 20px;
+}
+.designr>div>a{
+  text-decoration: none;
+  color: #5c6270;
+    font-weight: 400;
+    display: block;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 10px;
+    margin: auto 30px;
+    transition: all 0.2s ease-in;
+    border-bottom: 1px solid slategray;
+}
+.designr>div>a:hover{
+    color: #EF3934;;
+}
+.designr>div>h2{
+    color: #4141a2;
+    margin:auto 30px ;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-weight: 600;
+    padding:15px;
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-bottom: 1px solid slategray;
+}
+.hr>a{
+    margin: 0 0 0 40px;
+    font-size: 20px;
+    color: #EF3934;
+}
+.matter{
+    width: 98%;
+    margin: auto;
+   
+   
+    background-color:#B5E0EC;
+    margin-top: 100px;
+}
+.matter>h2{
+    padding: 100px 0 0 30px;
+    font-size: 3rem;
+    line-height: 1.085;
+    font-weight: 600;
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #3F4450;
+}
+.matter>h4{
+    width: 50%;
+    padding:10 0 100 30px;
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    color: #717684;
+}
+
+
