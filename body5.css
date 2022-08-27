@@ -1,0 +1,23 @@
+.matter{
+    width: 98%;
+    margin: auto;
+   
+   
+    background-color:#B5E0EC;
+    margin-top: 100px;
+}
+.matter>h2{
+    padding: 100px 0 0 30px;
+    font-size: 3rem;
+    line-height: 1.085;
+    font-weight: 600;
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #3F4450;
+}
+.matter>h4{
+    width: 50%;
+    padding:10 0 100 30px;
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    color: #717684;
+}
