@@ -1,3 +1,171 @@
+<<<<<<< Updated upstream
+=======
+
+/* ***** */
+#navbarid{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+    margin-top: -2em;
+}
+#navimgbody{
+    width: 16rem;
+    height: 10rem;
+    
+}
+
+#headA{  
+    width: 98%;
+    margin: auto;  
+    display: flex;
+    justify-content: space-around;
+    
+}
+.heading{
+   
+    color: #3f4450;
+    margin-bottom: 0.75rem;
+    margin: auto;
+    width: 80%;
+    font-size:60px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#headA>div>img{
+    width: 450px;
+    margin-top: 20px;
+}
+.subheading{
+    
+    margin:4px auto;
+    width: 80%;
+    color: #717684;
+    font-size:25px;
+    line-height: 1.5;
+    font-weight: 500;
+    max-width: 455px;
+    text-align: center;
+ }
+ .btn_red,.arrow{
+   
+    margin:30px  auto;
+    border-radius: 5px;
+    width: 40%;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 400;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    line-height: 2.5rem;
+    color: #FFFFFF;
+    background-color: #FA4338;
+ }
+ .lifea{
+    width: 98%;
+    margin: auto;
+    background-color:rgb(246,246,249);
+    display:flex ;
+    gap: 60px;
+ }
+ 
+ .lifeb{
+    width: 50%;
+    margin:150px 0 0 30px;
+ }
+ .lifeb>div{
+    color: #3F4450;
+    font-size: large;
+    margin-left: 60px;
+   
+ }
+ .u{
+    border-bottom: 1px solid;
+    color:rgb(113,118,132);
+ }
+ 
+ .lifeb>p{
+    margin-left:60px;
+    width: 100%;
+    font-weight: 500;
+    line-gap-override: 100px;
+    color: #7e8086;
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+   
+ }
+ .u>p{
+    margin-bottom: 30px;
+    width: auto;
+   
+ }
+
+ .smile{
+   
+    display: flex;
+    gap: 10px;
+ }
+
+ .pic{
+    margin: 165px 100px 100px 8px;
+ }
+ .pic>img{
+    width:85%;
+ }
+ .lifeb>h1{
+    font-size: 3rem;
+    line-height: 2.5rem;
+    color: #3F4450;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+
+/* ***** */
+#mainr3{
+    width: 98%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(181,224,236);
+}
+.headingr3{
+    width: 70%;
+    font-size: 60px;
+    box-sizing: border-box;
+   color: rgb(63,68,80);
+   padding: 0px 0 0 20px;
+    border-width: 0;
+    border-style: solid;
+    border-color: currentColor;
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.subheadingr3{
+    font-family: SofiaPro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    padding: 0 20px;
+    color: rgb(113,118,132);
+}
+.numr3>div>span{
+    color: #21944e;
+    display: block;
+    font-size: 120px;
+    line-height: 1em;
+    font-weight: 600;
+    margin: 50px 100 0 0;
+}
+.numr3>div>h2{
+    color: #5c6270;
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: 400;
+    display: block;
+   
+}
+.numr3>div:nth-child(2) span{
+    padding-right: 50px;
+}
+/* ********************* */
+>>>>>>> Stashed changes
 .headingr4{
     font-size: 3rem;
     line-height: 1.085;
